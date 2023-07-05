@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Project Viewer</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="header">Project Viewer</h1>
+
+    <div class="image-container">
+      <div class="image"> <img src="./src/images/image1.png" alt="" /></div>
+      <div class="image"> <img src="./src/images/image2.png" alt="" /></div> 
+      <div class="image"> <img src="./src/images/image3.png" alt="" /></div>
+      <div class="image"> <img src="./src/images/image4.png" alt="" /></div>
+      <div class="image"> <img src="./src/images/image5.png" alt="" /></div>
+      <div class="image"> <img src="./src/images/image6.png" alt="" /></div>
+    </div>
+
+    <div class="popup-image">
+      <span>&times;</span>
+        <img src="./src/images/image1.png" alt="">
+    </div>
+  </div>
+  
+<script> 
+
+document.querySelectorAll(".image-container img").forEach(image=>{
+  image.addEventListener("click",()=>{
+    document.querySelector(".popup-image").style.display = "block";
+    document.querySelector(".popup-image img").src = image.getAttribute("src");
+});
+
+document.querySelectorAll('.popup-image span').onclick = ()=> {
+  document.querySelector(".popup-image").style.display = "none";
+} 
+});
+
+</script>
+
+</body>
+</html>
