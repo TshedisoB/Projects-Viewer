@@ -21,22 +21,24 @@
     </div>
 
     <div class="popup-image">
-      <span>&times;</span>
-        <img src="./src/images/image1.png" alt="">
+      <span>&times;</span> 
     </div>
   </div>
-  
-<script> 
 
-document.querySelectorAll(".image-container img").forEach(image=>{
-  image.addEventListener("click",()=>{
-    document.querySelector(".popup-image").style.display = "block";
-    document.querySelector(".popup-image img").src = image.getAttribute("src");
+<script>  
+document.querySelectorAll(".image-container img").forEach(image => {
+  image.addEventListener("click", () => {
+    const popupImageContainer = document.querySelector(".popup-image");
+    popupImageContainer.innerHTML = ""; // Clear previous content
+    const clickedImage = document.createElement("img");
+    clickedImage.src = image.getAttribute("src");
+    popupImageContainer.appendChild(clickedImage);
+    popupImageContainer.style.display = "block";
+  });
 });
 
-document.querySelectorAll('.popup-image span').onclick = ()=> {
+document.querySelector('.popup-image span').addEventListener('click', () => {
   document.querySelector(".popup-image").style.display = "none";
-} 
 });
 
 </script>
