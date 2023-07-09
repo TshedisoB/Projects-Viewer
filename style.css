@@ -9,6 +9,14 @@ body{
   overflow-x:hidden;
 }
 
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
 .container{
   position:relative;
   min-height: 100vh;

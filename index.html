@@ -9,7 +9,7 @@
 <body>
 
   <div class="container">
-    <h1 class="header">Project Viewer</h1>
+    <h1 class="header">Tshediso's Projects</h1>
 
     <div class="image-container">
       <div class="image"> <img src="./src/images/image1.png" alt="" /></div>
@@ -21,7 +21,8 @@
     </div>
 
     <div class="popup-image">
-      <span>&times;</span> 
+      <span class="close">&times;</span> 
+      <img class="popup-content" src="" alt="" />
     </div>
   </div>
 
@@ -29,18 +30,21 @@
 document.querySelectorAll(".image-container img").forEach(image => {
   image.addEventListener("click", () => {
     const popupImageContainer = document.querySelector(".popup-image");
-    popupImageContainer.innerHTML = ""; // Clear previous content
-    const clickedImage = document.createElement("img");
-    clickedImage.src = image.getAttribute("src");
-    popupImageContainer.appendChild(clickedImage);
+    const popupImage = popupImageContainer.querySelector(".popup-content");
+    popupImage.src = image.getAttribute("src");
     popupImageContainer.style.display = "block";
   });
 });
 
-document.querySelector('.popup-image span').addEventListener('click', () => {
+document.querySelector('.popup-image .close').addEventListener('click', () => {
   document.querySelector(".popup-image").style.display = "none";
 });
 
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') {
+    document.querySelector(".popup-image").style.display = "none";
+  }
+});
 </script>
 
 </body>
