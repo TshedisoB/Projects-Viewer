@@ -61,36 +61,6 @@ body{
   transform: scale(1.1);
 }
 
-/* .container .popup-image{
-  display: none;
-  position: fixed;
-  top:0; left:0;
-  background: rgba(0,0,0,.9);
-  height: 100%;
-  width:100%;
-  z-index: 100;
-}
-
-.container .popup-image span{
-  position: absolute;
-  top: 0px; right: 10px;
-  font-size: 60px;
-  font-weight: bolder;
-  color: #fff;
-  cursor: pointer;
-  z-index: 100;
-}
-
-.container .popup-image img{
-  position: absolute;
-  left:50%; top:50%; 
-  transform: translate(-50%,-50%);
-  border: 5px solid #fff;
-  border-radius: 6px;
-  width: 950px;
-  object-fit: cover;
-} */
-
 .container .popup-image {
   display: flex;
   position: fixed;
@@ -108,7 +78,18 @@ body{
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#escape-button{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  font-size: 30px;
   font-weight: bolder;
   color: #fff;
   cursor: pointer;
@@ -154,9 +135,4 @@ body{
   padding: 8px;
   font-size: 14px;
   font-weight: bold;
-}
-
-
-
-/* 
-*/
+} 
