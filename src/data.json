@@ -3,35 +3,57 @@
     "id": 1,
     "title": "Consume Github APIs",
     "imageLink": "../images/image1.png",
-    "videoLink": "../videos/video1.mp4"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "https://youtu.be/XPOayb1GVPA", 
+    "instructions":"Create a project the uses github APIs to display id, name and dates"
+    
   },
   {
     "id": 2,
     "title": "Semitone Difference",
     "imageLink": "../images/image1.png",
-    "videoLink": "../videos/video1.mp4"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "https://youtu.be/439KVBTK37g", 
+    "instructions":"Create a project the uses github APIs to display id, name and dates"
   },
   {
     "id": 3,
     "title": "Project 3 Title",
     "imageLink": "../images/image3.png",
-    "videoLink": "../videos/video1.mp4"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Create a project the uses github APIs to display id, name and dates"
   },
   {
     "id": 4,
     "title": "Project 4 Title",
     "imageLink": "../images/image4.png",
-    "videoLink": "../videos/video1.mp4"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "../videos/video1.mp4",
+    "instructions":"Create a project the uses github APIs to display id, name and dates"
   },
   {
     "id": 5,
     "title": "Project 5 Title",
     "imageLink": "../images/image5.png",
-    "videoLink": "../videos/video1.mp4"
+    "videoLink": "../videos/video1.mp4",
+    "instructions":"Create a project the uses github APIs to display id, name and dates"
   },
   {
     "id": 6,
     "title": "Project 6 Title",
+    "imageLink": "../images/image6.png",
+    "videoLink": "../videos/video1.mp4"
+  },
+  {
+    "id": 7,
+    "title": "Project 7 Title",
+    "imageLink": "../images/image6.png",
+    "videoLink": "../videos/video1.mp4"
+  },
+  {
+    "id": 8,
+    "title": "Project 7 Title",
     "imageLink": "../images/image6.png",
     "videoLink": "../videos/video1.mp4"
   }
