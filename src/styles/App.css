@@ -41,14 +41,14 @@ body{
   padding:10px;
 }
 
-.container .image-container .image{
+.container .image-container .image-logo-container{
   height:250px;
   width:350px;
   overflow:hidden;
   cursor: pointer;
 }
 
-.container .image-container .image img{
+.container .image-container .image-logo-container img{
   height:100%;
   width:100%;
   object-fit: cover;
@@ -56,7 +56,7 @@ body{
   
 }
  
-.container .image-container .image:hover img{
+.container .image-container .image-logo-container:hover img{
   transform: scale(1.1);
 }
 
@@ -106,7 +106,7 @@ body{
 
 
 @media(max-width: 768px){
-  .container .image-container .image{
+  .container .image-container .image-logo-container{
     height:200px;
     width:300px;
   }
@@ -123,7 +123,7 @@ body{
   margin-top: 40px;
 }
 
-.image {
+.image-logo-container {
   position: relative;
   width: 200px;
   height: 200px;
@@ -146,8 +146,8 @@ body{
 .image-logo{
   position: absolute;
   top: 0;  right: 0;  
-  width: 20%;
-  height: 20%; 
+  width: 13%;
+  height: 22%; 
 }
 
 .image-content{

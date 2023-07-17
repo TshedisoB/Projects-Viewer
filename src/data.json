@@ -1,12 +1,11 @@
-[
+[ 
   {
     "id": 1,
     "title": "Consume Github APIs",
     "imageLink": "../images/image1.png",
     "imageLogo": "../images/tech/react.png",
     "videoLink": "https://youtu.be/XPOayb1GVPA", 
-    "instructions":"Create a project the uses github APIs to display id, name and dates"
-    
+    "instructions":"Consume Github APIs Create a project"
   },
   {
     "id": 2,
@@ -14,7 +13,7 @@
     "imageLink": "../images/image1.png",
     "imageLogo": "../images/tech/react.png",
     "videoLink": "https://youtu.be/439KVBTK37g", 
-    "instructions":"Create a project the uses github APIs to display id, name and dates"
+    "instructions":"Semitone Difference Create a project"
   },
   {
     "id": 3,
@@ -22,39 +21,42 @@
     "imageLink": "../images/image3.png",
     "imageLogo": "../images/tech/react.png",
     "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Create a project the uses github APIs to display id, name and dates"
+    "instructions":"Project 3 Title Create a project"
   },
   {
     "id": 4,
     "title": "Project 4 Title",
     "imageLink": "../images/image4.png",
     "imageLogo": "../images/tech/react.png",
-    "videoLink": "../videos/video1.mp4",
-    "instructions":"Create a project the uses github APIs to display id, name and dates"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Project 4 Title instructions "
   },
   {
     "id": 5,
     "title": "Project 5 Title",
     "imageLink": "../images/image5.png",
-    "videoLink": "../videos/video1.mp4",
-    "instructions":"Create a project the uses github APIs to display id, name and dates"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Project 5 Title Create a project"
   },
   {
     "id": 6,
     "title": "Project 6 Title",
     "imageLink": "../images/image6.png",
-    "videoLink": "../videos/video1.mp4"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Project 6 Title Create a project"
   },
   {
     "id": 7,
     "title": "Project 7 Title",
     "imageLink": "../images/image6.png",
-    "videoLink": "../videos/video1.mp4"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Project 7 Title Create a project"
   },
   {
     "id": 8,
     "title": "Project 7 Title",
     "imageLink": "../images/image6.png",
-    "videoLink": "../videos/video1.mp4"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "instructions":"Project 7 Title Create a project"
   }
 ]

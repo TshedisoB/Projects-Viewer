@@ -6,19 +6,20 @@ import "../styles/App.css";
 import imagesData from "../data.json";
 
 const App = () => {
-  const [popupContent, setPopupContent] = useState(null);
+  const [popupVideoContent, setPopupVideoContent] = useState(null);
+  const [popupInfoContent, setPopupInfoContent] = useState(null);
 
   const openPopup = (content) => {
-    setPopupContent(content);
+    setPopupVideoContent(content);
+  };
+
+  const openInfoPopup = (content) => {
+    setPopupInfoContent(content);
   };
 
   const closePopup = () => {
-    setPopupContent(null);
-    document.querySelector(".project-status").style.display = "none";
-  };
-
-  const handleInfo = () => {
-    document.querySelector(".project-status").style.display = "block";
+    setPopupVideoContent(null);
+    openInfoPopup(null);
   };
 
   useEffect(() => {
@@ -42,26 +43,31 @@ const App = () => {
         {imagesData.map((item) => (
           <div className="image-content" key={item.id}>
             <div
-              className="image"
-              key={item.id}
+              className="image-logo-container"
               onClick={() => openPopup(item)}>
               <span className="image-logo">
                 <img src={item.imageLogo} alt="" />
               </span>
-
               <img src={item.imageLink} alt="" />
             </div>
 
             <div className="description">
               <h4>{item.title}</h4>
               <div className="button-container">
-                <button id="info-button" onClick={handleInfo}>
+                <button id="info-button" onClick={() => openInfoPopup(item)}>
                   Info
                 </button>
               </div>
             </div>
 
-            <div className="project-status" key={item.id}>
+            <div
+              className="project-status"
+              style={{
+                display:
+                  popupInfoContent && popupInfoContent.id === item.id
+                    ? "block"
+                    : "none",
+              }}>
               <h4>{item.title}</h4>
               <ProjectInfo
                 title={item.title}
@@ -73,17 +79,17 @@ const App = () => {
         ))}
       </div>
 
-      {popupContent && (
+      {popupVideoContent && (
         <div className="popup-image">
           <div className="esc-content" onClick={closePopup}>
             <span className="close">&times;</span>
             <span id="escape-button">Esc</span>
           </div>
 
-          {popupContent.videoLink ? (
+          {popupVideoContent.videoLink ? (
             <ReactPlayer
               className="popup-content"
-              url={popupContent.videoLink}
+              url={popupVideoContent.videoLink}
               controls
               playing
               width="80%"
@@ -92,7 +98,7 @@ const App = () => {
           ) : (
             <img
               className="popup-content"
-              src={popupContent.imageLink}
+              src={popupVideoContent.imageLink}
               alt=""
             />
           )}
