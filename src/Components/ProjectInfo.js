@@ -12,7 +12,7 @@ const ProjectInfo = ({ title, instructions, onClose }) => {
           <h1>{title}</h1>
         </div>
         <div className="modal-body">
-          <h2>Project Summary</h2>
+          <h3>Project Summary</h3>
           <p> {instructions}</p>
         </div>
         <div className="modal-footer">

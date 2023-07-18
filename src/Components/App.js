@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import ReactPlayer from "react-player";
 import ProjectInfo from "./ProjectInfo";
 
@@ -17,10 +17,11 @@ const App = () => {
     setPopupInfoContent(content);
   };
 
-  const closePopup = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const closePopup = useCallback(() => {
     setPopupVideoContent(null);
     openInfoPopup(null);
-  };
+  });
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -33,7 +34,7 @@ const App = () => {
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [closePopup]);
 
   return (
     <div className="container">
