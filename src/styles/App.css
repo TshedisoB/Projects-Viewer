@@ -17,6 +17,15 @@ body{
   text-decoration: underline;
 }
 
+.header-subtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;     
+  font-family: cursive;
+  font-weight: 100;
+}
+
 .container{
   position:relative;
   text-align: center;
@@ -30,7 +39,7 @@ body{
   font-weight: 600;
   padding: 20px 0;
   color: #043e94;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: cursive;
 }
 
 .container .image-container{
@@ -104,7 +113,14 @@ body{
   object-fit: contain;
 }
 
+@media(min-width: 768px){
+  .modal{
+    max-width: 80%;
+    /* width: 70%; */
+  }
+}
 
+  
 @media(max-width: 768px){
   .container .image-container .image-logo-container{
     height:200px;
@@ -120,7 +136,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .image-logo-container {
@@ -169,6 +185,10 @@ body{
   margin-top: 0.5rem;
 }
 
+.description-title{
+  margin-left: 0.7rem;
+}
+
 .button-container {
   margin-left: auto; 
 }
@@ -210,9 +230,12 @@ body{
 .modal {
   background-color: white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 5px;
+  max-width: 90%;
+  max-height:90%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+  overflow-y: auto; 
 }
 
 .modal-header {
@@ -230,10 +253,36 @@ body{
   font-size: 1.7rem;  
   padding:0;
   margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #c523aa;
 }
 
 .modal-body {
   margin-bottom: 20px;
+}
+
+.modal-body h3{
+  color: #c523aa;
+  font-size: 1.4rem;
+
+}
+
+.modal-body ul {    
+  margin-top: 1.02rem;
+  color: #053692;
+  list-style-type: square;
+  padding-left: 1rem;
+  text-align: left;
+  font-size: 12px;
+}
+
+li{
+  margin-bottom: 0.31rem;
+}
+
+li:hover{
+  color: white;
+  background-color: #0f228b;
 }
 
 .modal-footer {
@@ -252,4 +301,31 @@ body{
 
 .project-status{
   display: none;
+}
+
+@media (min-width: 700px) {
+  li{
+    font-size: 1.12rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container h1 {    
+    font-size: 1.98rem;
+  }
+
+  .header-subtitle{
+    font-size: 1.5rem;    
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {    
+    font-size: 1.1rem;
+  }
+
+  .header-subtitle{
+    font-size: 1rem;    
+  }
 }

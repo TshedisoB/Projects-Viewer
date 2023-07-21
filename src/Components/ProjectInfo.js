@@ -12,8 +12,12 @@ const ProjectInfo = ({ title, instructions, onClose }) => {
           <h1>{title}</h1>
         </div>
         <div className="modal-body">
-          <h3>Project Summary</h3>
-          <p> {instructions}</p>
+          <h3>Project Objective</h3>
+          <ul>
+            {Object.entries(instructions).map(([key, instruction]) => (
+              <li key={key}>{instruction}</li>
+            ))}
+          </ul>
         </div>
         <div className="modal-footer">
           <button className="close-button" onClick={handleClose}>

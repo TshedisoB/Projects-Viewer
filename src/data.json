@@ -1,62 +1,130 @@
-[ 
+[
   {
     "id": 1,
     "title": "Consume Github APIs",
     "imageLink": "../images/image1.png",
-    "imageLogo": "../images/tech/react.png",
+    "imageLogo": "../images/tech/javascript.png",
     "videoLink": "https://youtu.be/XPOayb1GVPA", 
-    "instructions":"Consume Github APIs Create a project"
+    "instructions": {
+    "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
+    "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
+    "3": "Implement pagination to efficiently retrieve all matching pull requests, fetching the maximum number of PRs per page (100) to minimize API calls.",
+    "4": "Handle errors effectively, providing clear error messages in case of incorrect owner or repository names.",
+    "5": "Support public and private repositories, requiring authentication using an environmental variable called GITHUB_TOKEN, but allowing requests without the token when it is not provided.",
+    "6": "Ensure the function works with any GitHub user and repository name, making it generic and reusable for various repositories.",
+    "7": "Test the function thoroughly to verify its functionality under different scenarios, including cases with no matching pull requests between the specified dates.",
+    "8": "Display the output."
+    }
   },
   {
     "id": 2,
-    "title": "Semitone Difference",
-    "imageLink": "../images/image1.png",
+    "title": "Memory Game",
+    "imageLink": "../images/thumbnails/memoryGame.png",
     "imageLogo": "../images/tech/react.png",
-    "videoLink": "https://youtu.be/439KVBTK37g", 
-    "instructions":"Semitone Difference Create a project"
+    "videoLink": "https://youtu.be/26PfB0Joi1A", 
+    "instructions": {
+        "1": "Develop a Memory game using React and Redux.",
+        "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
+        "3": "Implement the game using simple DOM elements; no fancy graphics or canvas elements are required.",
+        "4": "Allow only a single player to play the game.",
+        "5": "Create a pre-defined size board for the Memory game.",
+        "6": "Randomly hide one set of symbols or images on the board to be matched by the player.",
+        "7": "Build the Memory game in a Test-Driven Development (TDD) manner, ensuring the inclusion of tests throughout the development process.",
+        "8": "Write unit tests that employ mocks and spies to verify that the frontend updates appropriately based on game logic and player interactions.",
+        "9": "Ensure that once cards are matched, they cannot be flipped over again.",
+        "10": "Review the specifications provided in the tests to validate that they effectively test the functionality of the game code.",
+        "11": "Confirm that changes in the source files accurately affect the corresponding tests, demonstrating proper test coverage."
+    }
   },
   {
     "id": 3,
-    "title": "Project 3 Title",
-    "imageLink": "../images/image3.png",
+    "title": "Recipe Search",
+    "imageLink": "../images/thumbnails/recipe.png",
     "imageLogo": "../images/tech/react.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 3 Title Create a project"
+    "videoLink": "https://youtube.com/live/dDSB0tMX3P8",    
+    "instructions": {
+        "1": "Develop a Recipe Search user interface using React and Redux Saga.",
+        "2": "Add a 'Search' button to the web application to enable users to initiate recipe searches.",
+        "3": "Utilize Redux Saga to access the provided API when the user clicks on the 'Search' button, enabling asynchronous API calls.",
+        "4": "Display each recipe's name, ingredients, and picture in a neat and visually appealing manner once the results arrive.",
+        "5": "Ensure a user-friendly experience that allows users to perform subsequent searches without needing to refresh the page.",
+        "6": "For excellence, implement 'Next' and 'Previous' buttons to introduce pagination, enabling users to navigate through multiple pages of search results.",
+        "7": "Alternatively, use infinite scrolling to automatically fetch the next page of results as the user scrolls to the end of the returned recipes list.",
+        "8": "Enhance user experience by incorporating a spinner widget to indicate that search results are still loading during API requests.",
+        "9": "Build a seamless Recipe Search application that provides efficient search, navigation, and loading feedback for users."
+    }
   },
   {
     "id": 4,
-    "title": "Project 4 Title",
-    "imageLink": "../images/image4.png",
+    "title": "Redux Saga Game",
+    "imageLink": "../images/thumbnails/spaceInvader.png",
     "imageLogo": "../images/tech/react.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 4 Title instructions "
+    "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
+    "instructions":{
+      "1":"Using react and redux saga",
+      "2":"Create a space invaders game",
+      "3":"Display points",
+      "4":"defeat a monster",
+      "5":"end the game"
+    }
   },
   {
     "id": 5,
-    "title": "Project 5 Title",
-    "imageLink": "../images/image5.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 5 Title Create a project"
+    "title": "Tilde Mockups", 
+    "imageLogo": "../images/tech/react.png",
+    "imageLink": "../images/thumbnails/tildemockup.png",
+    "videoLink": "https://youtu.be/mEuy6jpI7pA",    
+    "instructions":{
+      "1":"Using react and redux saga",
+      "2":"Create a space invaders game",
+      "3":"Display points",
+      "4":"defeat a monster",
+      "5":"end the game"
+    }
+
   },
   {
     "id": 6,
     "title": "Project 6 Title",
     "imageLink": "../images/image6.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 6 Title Create a project"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "https://youtu.be/XPOayb1GVPA",    
+    "instructions":{
+      "1":"Using react and redux saga",
+      "2":"Create a space invaders game",
+      "3":"Display points",
+      "4":"defeat a monster",
+      "5":"end the game"
+    }
+
   },
   {
     "id": 7,
     "title": "Project 7 Title",
     "imageLink": "../images/image6.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 7 Title Create a project"
+    "imageLogo": "../images/tech/react.png",
+    "videoLink": "https://youtu.be/XPOayb1GVPA",    
+    "instructions":{
+      "1":"Using react and redux saga",
+      "2":"Create a space invaders game",
+      "3":"Display points",
+      "4":"defeat a monster",
+      "5":"end the game"
+    }
+
   },
   {
     "id": 8,
     "title": "Project 7 Title",
+    "imageLogo": "../images/tech/react.png",
     "imageLink": "../images/image6.png",
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
-    "instructions":"Project 7 Title Create a project"
+    "videoLink": "https://youtu.be/XPOayb1GVPA",    
+    "instructions":{
+      "1":"Using react and redux saga",
+      "2":"Create a space invaders game",
+      "3":"Display points",
+      "4":"defeat a monster",
+      "5":"end the game"
+    }
   }
 ]

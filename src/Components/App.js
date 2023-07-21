@@ -39,6 +39,7 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="header">Tshediso's Projects</h1>
+      <h3 className="header-subtitle">These are some of my projects</h3>
 
       <div className="image-container">
         {imagesData.map((item) => (
@@ -53,7 +54,7 @@ const App = () => {
             </div>
 
             <div className="description">
-              <h4>{item.title}</h4>
+              <h4 className="description-title">{item.title}</h4>
               <div className="button-container">
                 <button id="info-button" onClick={() => openInfoPopup(item)}>
                   Info
@@ -84,7 +85,7 @@ const App = () => {
         <div className="popup-image">
           <div className="esc-content" onClick={closePopup}>
             <span className="close">&times;</span>
-            <span id="escape-button">Esc</span>
+            <span id="escape-button">Close</span>
           </div>
 
           {popupVideoContent.videoLink ? (
