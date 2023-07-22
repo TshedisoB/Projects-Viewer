@@ -12,7 +12,7 @@ const ProjectInfo = ({ title, instructions, onClose }) => {
           <h1>{title}</h1>
         </div>
         <div className="modal-body">
-          <h3>Project Objective</h3>
+          <h3>Project Objectives</h3>
           <ul>
             {Object.entries(instructions).map(([key, instruction]) => (
               <li key={key}>{instruction}</li>

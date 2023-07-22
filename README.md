@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Project Showcase: Tshediso's Projects 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Showcase Demo](public/images/thumbnails/demo.png)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This project is a web application that showcases some of Tshediso's collection of projects. It provides a visually appealing and user-friendly interface to explore and learn about each project. Through this showcase, users can access project videos, images, and detailed information about the project objectives.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interactive and visually appealing design.
+- Display of project images with corresponding logos.
+- Play project videos in a built-in player.
+- Detailed information about each project's objectives.
+- Easy navigation with close functionality for project information pop-ups.
+- Responsive layout for seamless viewing on various devices.
+## How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Visit the project's live demo at [link-to-live-demo](https://www.example.com).
+2. Upon loading the page, you will see a collection of projects with their respective images and logos.
+3. Click on an image to open a pop-up displaying either a video for that project.
+4. To learn more about a project, click on the "Info" button to open another pop-up with detailed project objectives.
+5. To close any open pop-up, simply click the "Close" button within the pop-up or press the "Escape" key.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React:** A popular JavaScript library for building user interfaces.
+- **FontAwesome:** For including icons in the project.
+- **ReactPlayer:** To embed and play project videos.
+- **CSS:** Custom styling for the overall appearance.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project consists of two main components:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **App Component:** This component serves as the main entry point for the project. It handles the state for opening and closing pop-ups, and it maps through the project data to display project cards.
 
-### `npm run eject`
+2. **ProjectInfo Component:** This component is responsible for displaying detailed project information in a modal or pop-up. It receives the project title and objectives as props and provides a "Close" button to close the modal.
+ 
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For any inquiries or questions, feel free to reach out to Tshediso at [tshedisoboshiana@gmail.com](mailto:tshedisoboshiana@gmail.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy exploring! 🚀
