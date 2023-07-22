@@ -37,7 +37,7 @@ body{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
-  padding: 20px 0;
+  padding-top: 20px 0;
   color: #043e94;
   font-family: cursive;
 }
@@ -193,9 +193,9 @@ body{
   margin-left: auto; 
 }
 
-#info-button {
+[id^="info-button-"] {
   font-size: 15px;
-  background-color: #74a2e7;
+  background-color: #1D53A0;
   color: white;
   padding: 8px;
   text-align: center;
@@ -203,13 +203,13 @@ body{
   border-radius: 10px;
 }
 
-#info-button:hover {
+[id^="info-button-"]:hover {
   background-color: #427bcf;
   color: white;
   cursor: pointer;
 }
 
-#info-button:active {
+[id^="info-button-"]:active {
   background-color: pink;
   color: black;
 }
@@ -292,15 +292,53 @@ li:hover{
 
 .close-button {
   padding: 8px 16px;
-  background-color: #74a2e7;
+  background-color: #1D53A0;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
+close-button:hover {
+  background-color: #427bcf;
+  color: white;
+  cursor: pointer;
+}
+
+.close-button:active {
+  background-color: pink;
+  color: black;
+}
+
 .project-status{
   display: none;
+}
+
+.footer {
+  background-color: #71595d;
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-message {
+  font-size: 18px;
+}
+
+
+.footer-icons {
+  font-size: 24px;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #d578e7; 
 }
 
 @media (min-width: 700px) {
@@ -318,6 +356,10 @@ li:hover{
   .header-subtitle{
     font-size: 1.5rem;    
   }
+
+  .footer-message{
+    font-size: 1rem;    
+  }
 }
 
 @media (max-width: 480px) {
@@ -327,5 +369,10 @@ li:hover{
 
   .header-subtitle{
     font-size: 1rem;    
+  }
+
+  
+  .footer-message{
+    font-size: 0.8rem;    
   }
 }

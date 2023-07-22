@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 import ProjectInfo from "./ProjectInfo";
+import Footer from "./Footer";
+import hideHeaderSubtitle from "../helper.js";
 
 import "../styles/App.css";
 import imagesData from "../data.json";
@@ -8,6 +11,8 @@ import imagesData from "../data.json";
 const App = () => {
   const [popupVideoContent, setPopupVideoContent] = useState(null);
   const [popupInfoContent, setPopupInfoContent] = useState(null);
+
+  hideHeaderSubtitle();
 
   const openPopup = (content) => {
     setPopupVideoContent(content);
@@ -39,7 +44,7 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="header">Tshediso's Projects</h1>
-      <h3 className="header-subtitle">These are some of my projects</h3>
+      <h2 className="header-subtitle">These are some of my projects</h2>
 
       <div className="image-container">
         {imagesData.map((item) => (
@@ -56,7 +61,9 @@ const App = () => {
             <div className="description">
               <h4 className="description-title">{item.title}</h4>
               <div className="button-container">
-                <button id="info-button" onClick={() => openInfoPopup(item)}>
+                <button
+                  id={`info-button-${item.id}`}
+                  onClick={() => openInfoPopup(item)}>
                   Info
                 </button>
               </div>
@@ -80,6 +87,7 @@ const App = () => {
           </div>
         ))}
       </div>
+      <Footer />
 
       {popupVideoContent && (
         <div className="popup-image">
