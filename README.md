@@ -1,6 +1,6 @@
 # Project Showcase: Tshediso's Projects 
 
-![Project Showcase Demo](public/images/thumbnails/demo.png)
+[![Project Showcase Demo](public/images/thumbnails/demo.png)](https://projects-5584f.web.app/)
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project is a web application that showcases some of Tshediso's collection o
 
 ## How to Use
 
-1. Visit the project's live demo at [link-to-live-website](https://www.example.com).
+1. Visit the project's live demo at [link-to-live-website](https://projects-5584f.web.app/).
 2. Upon loading the page, you will see a collection of projects with their respective images and logos.
 3. Click on an image to open a pop-up displaying either a video for that project.
 4. To learn more about a project, click on the "Info" button to open another pop-up with detailed project objectives.
