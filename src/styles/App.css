@@ -15,6 +15,7 @@ body{
   align-items: center;
   font-size: 2rem;
   text-decoration: underline;
+  padding: 1rem;
 }
 
 .header-subtitle{
