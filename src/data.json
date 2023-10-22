@@ -1,5 +1,24 @@
 [
   {
+    "id": 7,
+    "title": "QR Scanner",
+    "imageLink": "../images/thumbnails/qrScanner.png",
+    "imageLogo": "../images/tech/reactNative.png",
+    "videoLink": "https://youtu.be/CVXc9Gtywl0",
+    "instructions": {
+      "0": "Create a mobile app using React Native.",
+      "1": "Create attendee contact information in YAML format.",
+      "2": "Generate unique QR codes for each attendee based on their contact information.",
+      "3": "Print name badges with QR codes for all conference attendees.",
+      "4": "Develop a conference app with a QR code scanning function.",
+      "5": "Implement QR code scanning and data parsing within the app.",
+      "6": "Design a user-friendly interface to display attendee details.",
+      "7": "Ensure links within attendee details are clickable and open the relevant webpages.",
+      "8": "Thoroughly test the app for functionality and compatibility.",
+      "9": "Create clear user instructions for QR code scanning and app usage."
+    }
+  },
+  {
     "id": 1,
     "title": "Consume Github APIs", 
     "imageLink": "../images/thumbnails/github.png",
