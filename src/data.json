@@ -4,7 +4,7 @@
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "imageLogo": "../images/tech/reactNative.png",
-    "videoLink": "https://youtu.be/CVXc9Gtywl0",
+    "videoLink": "https://youtube.com/live/2_QcyzbiIec",
     "instructions": {
       "0": "Create a mobile app using React Native.",
       "1": "Create attendee contact information in YAML format.",
