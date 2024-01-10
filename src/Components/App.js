@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 import ProjectInfo from "./ProjectInfo";
-import Divider from "@mui/material/Divider";
+
 import Footer from "./Footer";
 
 import "../styles/App.css";
