@@ -189,6 +189,7 @@ body{
 
 .description-title{
   margin-left: 0.7rem;
+  font-size: 1.09rem;
 }
 
 .button-container {
@@ -279,6 +280,7 @@ body{
 }
 
 li{
+  font-size: 0.78rem;
   margin-bottom: 0.31rem;
 }
 

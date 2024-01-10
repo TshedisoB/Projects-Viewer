@@ -12,21 +12,25 @@ function AboutMe() {
         <div className="about-me-summary">
           <h3 className="about-me-sub-header">Summary</h3>
           <p>
-            Hey Hey✌😅! I'm Tshediso Boshiana, your go-to guy for turning web
-            development dreams into reality. Hailing from Pretoria, I'm all
-            about creating unique and visually stunning mobile/web applications.
+            Hey Hey! ✌😅 I'm Tshediso Boshiana, your go-to guy for transforming
+            web development dreams into reality. Hailing from Pretoria, I
+            specialize in creating unique and visually stunning mobile/web
+            applications.
           </p>
           <br />
           <p>
-            As a tech enthusiast, I love teaming up with fellow developers to
-            bring ideas to life. Currently, I'm rocking the role of Junior Tech
-            Lead at Umuzi.org, where I not only keep the daily standups in check
-            but also dive deep into coding responsive web and mobile
-            applications using various JavaScript frameworks. I've left my mark
-            at Ladies In Hygiene and Precious The Hair Stylist, adding my touch
-            to their online presence. Education-wise, I'm armed with a
-            Bachelor's in Computer Sciences and Mathematical Statistics from
-            Sefako Makgatho Health Science University.
+            While in varsity I started contributing with other developers to
+            create apps to help businesses like `Ladies In Hygiene` and
+            `Precious The Hair Stylist` establish their online presence. As a
+            passionate tech enthusiast, I enjoy learning technologies that helps
+            build better and scalable applications.
+          </p>
+          <br />
+          <p>
+            Since becoming a FullStack web developer at Umuzi.org, I've expanded
+            my skill-set to include frontend and backend frameworks. In addition
+            to keeping daily standups in check, I immerse myself in building
+            responsive web and mobile applications.
           </p>
         </div>
 
