@@ -2,17 +2,16 @@ import React, { useState, useEffect, useCallback } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 import ProjectInfo from "./ProjectInfo";
+import Divider from "@mui/material/Divider";
 import Footer from "./Footer";
-import hideHeaderSubtitle from "../helper.js";
 
 import "../styles/App.css";
 import imagesData from "../data.json";
+import AboutMe from "./AboutMe";
 
 const App = () => {
   const [popupVideoContent, setPopupVideoContent] = useState(null);
   const [popupInfoContent, setPopupInfoContent] = useState(null);
-
-  hideHeaderSubtitle();
 
   const openPopup = (content) => {
     setPopupVideoContent(content);
@@ -44,6 +43,8 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="header">Tshediso's Portfolio</h1>
+      <AboutMe />
+
       <h2 className="header-subtitle">These are some of my projects</h2>
 
       <div className="image-container">

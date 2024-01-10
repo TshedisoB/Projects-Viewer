@@ -1,0 +1,74 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.51rem;
+}
+
+.about-me-skills,
+.about-me-summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%; 
+}
+
+.about-me-skills ul {
+  list-style-type: none;
+}
+
+.about-me-sub-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-me-header{
+  color: #043e94;
+  font-size: 1.4rem;
+}
+
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.skills-category{
+  flex: 1;
+  min-width: 200px; 
+}
+
+.skills-category  strong{
+  color: #043e94;  
+}
+
+
+@media (max-width: 700px) {
+  .about-me-skills,
+  .about-me-summary {
+    width: 100%;
+  }
+
+  .about-me-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}

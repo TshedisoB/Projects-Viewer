@@ -11,6 +11,29 @@ const Footer = () => {
           rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
+
+        <a
+          href="https://www.linkedin.com/in/tshediso-boshiana-b43096219/"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://wa.me/+27606101110"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i className="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="mailto:tshedisoboshiana@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i className="far fa-envelope"></i>
+        </a>
+        <a href="tel:+27606101110" target="_blank" rel="noopener noreferrer">
+          <i className="fas fa-phone"></i>
+        </a>
       </div>
     </div>
   );
