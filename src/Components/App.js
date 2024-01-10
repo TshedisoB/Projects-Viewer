@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 className="header">Tshediso's Projects</h1>
+      <h1 className="header">Tshediso's Portfolio</h1>
       <h2 className="header-subtitle">These are some of my projects</h2>
 
       <div className="image-container">
