@@ -8,7 +8,6 @@
   height: 100%;
   border-radius: 10px;
   background-color: white;
-
 }
 
 .about-me-section {
@@ -70,6 +69,10 @@
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+#about-me-button:hover {
+  background-color: #021e54;
 }
 
 @media (max-width: 700px) {
