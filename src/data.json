@@ -1,12 +1,16 @@
 [
   {
-    "id": 7,
+    "id": 1,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
-    "imageLogo": "../images/tech/reactNative.png",
+    "imageLogo": {
+        "1":"../images/tech/reactNative.png",
+        "2":"../images/tech/redux.png",
+        "3":"../images/tech/sqllite.jpg"
+    },
     "videoLink": "https://youtube.com/live/2_QcyzbiIec",
     "instructions": {
-      "0": "Create a mobile app using React Native.",
+      "0": "Create a mobile app using React Native.", 
       "1": "Create attendee contact information in YAML format.",
       "2": "Generate unique QR codes for each attendee based on their contact information.",
       "3": "Print name badges with QR codes for all conference attendees.",
@@ -19,10 +23,13 @@
     }
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Consume Github APIs", 
     "imageLink": "../images/thumbnails/github.png",
-    "imageLogo": "../images/tech/javascript.png",
+    "imageLogo": {
+        "1":"../images/tech/javascript.png",
+        "2":"../images/tech/api.png"
+    },
     "videoLink": "https://youtu.be/XPOayb1GVPA", 
     "instructions": {
     "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
@@ -36,91 +43,124 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Memory Game",
     "imageLink": "../images/thumbnails/memoryGame.png",
-    "imageLogo": "../images/tech/react.png",
+     "imageLogo": {
+        "1":"../images/tech/react.png",
+        "2":"../images/tech/redux.png"
+    },
     "videoLink": "https://youtu.be/26PfB0Joi1A", 
     "instructions": {
-        "1": "Develop a Memory game using React and Redux.",
-        "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
-        "3": "Implement the game using simple DOM elements; no fancy graphics or canvas elements are required.",
-        "4": "Allow only a single player to play the game.",
-        "5": "Create a pre-defined size board for the Memory game.",
-        "6": "Randomly hide one set of symbols or images on the board to be matched by the player.",
-        "7": "Build the Memory game in a Test-Driven Development (TDD) manner, ensuring the inclusion of tests throughout the development process.",
-        "8": "Write unit tests that employ mocks and spies to verify that the frontend updates appropriately based on game logic and player interactions.",
-        "9": "Ensure that once cards are matched, they cannot be flipped over again.",
-        "10": "Review the specifications provided in the tests to validate that they effectively test the functionality of the game code.",
-        "11": "Confirm that changes in the source files accurately affect the corresponding tests, demonstrating proper test coverage."
-    }
-  },
-  {
-    "id": 3,
-    "title": "Recipe Search",
-    "imageLink": "../images/thumbnails/recipe.png",
-    "imageLogo": "../images/tech/react.png",
-    "videoLink": "https://youtube.com/live/dDSB0tMX3P8",    
-    "instructions": {
-        "1": "Develop a Recipe Search user interface using React and Redux Thunks.",
-        "2": "Add a 'Search' button to the web application to enable users to initiate recipe searches.",
-        "3": "Utilize Redux Thunk to access the provided API when the user clicks on the 'Search' button, enabling asynchronous API calls.",
-        "4": "Display each recipe's name, ingredients, and picture in a neat and visually appealing manner once the results arrive.",
-        "5": "Ensure a user-friendly experience that allows users to perform subsequent searches without needing to refresh the page.",
-        "6": "Implement pagination, enabling users to navigate through multiple pages of search results.",
-        "7": "Enhance user experience by incorporating a spinner widget to indicate that search results are still loading during API requests.",
-        "8": "Build a seamless Recipe Search application that provides efficient search, navigation, and loading feedback for users."
+      "1": "Develop a Memory game using React and Redux.",
+      "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
+      "3": "Implement the game using simple DOM elements; no fancy graphics or canvas elements are required.",
+      "4": "Allow only a single player to play the game.",
+      "5": "Create a pre-defined size board for the Memory game.",
+      "6": "Randomly hide one set of symbols or images on the board to be matched by the player.",
+      "7": "Build the Memory game in a Test-Driven Development (TDD) manner, ensuring the inclusion of tests throughout the development process.",
+      "8": "Write unit tests that employ mocks and spies to verify that the frontend updates appropriately based on game logic and player interactions.",
+      "9": "Ensure that once cards are matched, they cannot be flipped over again.",
+      "10": "Review the specifications provided in the tests to validate that they effectively test the functionality of the game code.",
+      "11": "Confirm that changes in the source files accurately affect the corresponding tests, demonstrating proper test coverage."
     }
   },
   {
     "id": 4,
-    "title": "Redux Saga Game",
-    "imageLink": "../images/thumbnails/spaceInvader.png",
-    "imageLogo": "../images/tech/react.png",
-    "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
+    "title": "Recipe Search",
+    "imageLink": "../images/thumbnails/recipe.png",
+    "imageLogo": {
+      "1":"../images/tech/react.png",
+      "2":"../images/tech/redux.png",
+      "3":"../images/tech/api.png"
+    },
+    "videoLink": "https://youtube.com/live/dDSB0tMX3P8",    
     "instructions": {
-        "1": "Develop a simple game using React, Redux, and Redux Saga.",
-        "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
-        "3": "Include collectible items to gather points, displaying the points earned during gameplay.",
-        "4": "Implement a game-ending condition, such as encountering monsters, time limit, or colliding with obstacles.",
-        "5": "Use freely available game elements or create custom artwork for the game's aesthetics.",
-        "6": "Ensure clean, well-organized code, and rigorously test for functionality and bug fixing.",
-        "9": "Demonstrate proficiency in React, Redux, and Redux Saga through the project.",
-        "10": "Deliver a captivating game that showcases my skills in using these technologies."
+      "1": "Develop a Recipe Search user interface using React and Redux Thunks.",
+      "2": "Add a 'Search' button to the web application to enable users to initiate recipe searches.",
+      "3": "Utilize Redux Thunk to access the provided API when the user clicks on the 'Search' button, enabling asynchronous API calls.",
+      "4": "Display each recipe's name, ingredients, and picture in a neat and visually appealing manner once the results arrive.",
+      "5": "Ensure a user-friendly experience that allows users to perform subsequent searches without needing to refresh the page.",
+      "6": "Implement pagination, enabling users to navigate through multiple pages of search results.",
+      "7": "Enhance user experience by incorporating a spinner widget to indicate that search results are still loading during API requests.",
+      "8": "Build a seamless Recipe Search application that provides efficient search, navigation, and loading feedback for users."
     }
   },
   {
     "id": 5,
-    "title": "Tilde Mockups",
-    "imageLogo": "../images/tech/react.png",
-    "imageLink": "../images/thumbnails/tildemockup.png",
-    "videoLink": "https://youtu.be/mEuy6jpI7pA",
+    "title": "Add Little Ajax (form)",
+    "imageLink": "../images/thumbnails/littleAjax.png",
+    "imageLogo": {
+      "1":"../images/tech/javascript.png", 
+      "2":"../images/tech/postgresql.png",
+      "3":"../images/tech/express.png"
+    },
+    "videoLink": "https://youtube.com/live/7vvsel3TpEU",
     "instructions": {
-        "1": "Create an intuitive frontend with user empathy and clear design.",
-        "2": "Ensure website responsiveness using Material UI's layout components.",
-        "3": "Follow good architectural practices in the project development.",
-        "4": "Demonstrate understanding of React mechanisms like functional components, props, useState, and useEffect.",
-        "5": "Include a profile picture, 'Hire me' button, employment history, and testimonials.",
-        "6": "Add a personalized statement about the recruit's plans and identity.",
-        "7": "Strive for a visually appealing and memorable web presence.",
-        "8": "Showcase proficiency in React and design principles throughout the project.",
-        "9": "Make use of Material UI components for consistent and professional appearance."
+      "1": "Create a static web page form.",
+      "2": "Make use of express.js and postgresql to make AJAX requests to the database.",
+      "3": "Form must be able to add new visitors to the database.",
+      "4": "Design an HTML table and populate it using AJAX with data retrieved from an existing API endpoint.",
+      "5": "Implement 'delete' functionality to remove visitors from the database.",
+      "6": "Adding/removing visitors should also auto update the table without refreshing the page."
     }
   },
   {
     "id": 6,
+    "title": "Redux Saga Game",
+    "imageLink": "../images/thumbnails/spaceInvader.png",
+    "imageLogo": {
+      "1":"../images/tech/react.png",
+      "2":"../images/tech/redux.png"
+    },
+    "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
+    "instructions": {
+      "1": "Develop a simple game using React, Redux, and Redux Saga.",
+      "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
+      "3": "Include collectible items to gather points, displaying the points earned during gameplay.",
+      "4": "Implement a game-ending condition, such as encountering monsters, time limit, or colliding with obstacles.",
+      "5": "Use freely available game elements or create custom artwork for the game's aesthetics.",
+      "6": "Ensure clean, well-organized code, and rigorously test for functionality and bug fixing.",
+      "9": "Demonstrate proficiency in React, Redux, and Redux Saga through the project.",
+      "10": "Deliver a captivating game that showcases my skills in using these technologies."
+    }
+  },
+  {
+    "id": 7,
+    "title": "Tilde Mockups",
+    "imageLogo": {
+      "1":"../images/tech/react.png" 
+    },
+    "imageLink": "../images/thumbnails/tildemockup.png",
+    "videoLink": "https://youtu.be/mEuy6jpI7pA",
+    "instructions": {
+      "1": "Create an intuitive frontend with user empathy and clear design.",
+      "2": "Ensure website responsiveness using Material UI's layout components.",
+      "3": "Follow good architectural practices in the project development.",
+      "4": "Demonstrate understanding of React mechanisms like functional components, props, useState, and useEffect.",
+      "5": "Include a profile picture, 'Hire me' button, employment history, and testimonials.",
+      "6": "Add a personalized statement about the recruit's plans and identity.",
+      "7": "Strive for a visually appealing and memorable web presence.",
+      "8": "Showcase proficiency in React and design principles throughout the project.",
+      "9": "Make use of Material UI components for consistent and professional appearance."
+    }
+  },
+  {
+    "id": 8,
     "title": "Semitone Difference (GUI)",
     "imageLink": "../images/thumbnails/semitone.png",
-    "imageLogo": "../images/tech/javascript.png",
+    "imageLogo": {
+      "1":"../images/tech/javascript.png" 
+    },
     "videoLink": "https://youtube.com/live/RJqmKMyK-tc",
     "instructions": {
-        "1": "Create a JamBuddy class with an attribute 'currentSelectedNotes' to track selected notes.",
-        "2": "Implement the JamBuddy class to allow selecting two notes and checking the difference in semitones between them.",  
-        "3": "Use JavaScript to build a simple user interface.",
-        "4": "Support the notes: A, A#, B, C, C#, D, D#, E, F, F#, G, G#.", 
-        "5": "Allow users to interact with the app to select notes and check answers.", 
-        "6": "Ensure the GUI displays the selected notes, and users can input their answers easily.",
-        "7": "Test the GUI functionality to validate its correctness using Jasmine."
+      "1": "Create a JamBuddy class with an attribute 'currentSelectedNotes' to track selected notes.",
+      "2": "Implement the JamBuddy class to allow selecting two notes and checking the difference in semitones between them.",  
+      "3": "Use JavaScript to build a simple user interface.",
+      "4": "Support the notes: A, A#, B, C, C#, D, D#, E, F, F#, G, G#.", 
+      "5": "Allow users to interact with the app to select notes and check answers.", 
+      "6": "Ensure the GUI displays the selected notes, and users can input their answers easily.",
+      "7": "Test the GUI functionality to validate its correctness using Jasmine."
     }
   }
 ]
