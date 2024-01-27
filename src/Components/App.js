@@ -54,7 +54,9 @@ const App = () => {
               className="image-logo-container"
               onClick={() => openPopup(item)}>
               <span className="image-logo">
-                <img src={item.imageLogo} alt="" />
+                {Object.keys(item.imageLogo).map((key) => (
+                  <img key={key} src={item.imageLogo[key]} alt="" />
+                ))}
               </span>
               <img src={item.imageLink} alt="" />
             </div>
