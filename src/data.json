@@ -6,7 +6,8 @@
     "imageLogo": {
         "1":"../images/tech/reactNative.png",
         "2":"../images/tech/redux.png",
-        "3":"../images/tech/sqllite.jpg"
+        "3":"../images/tech/sqllite.jpg",
+        "4":"../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/2_QcyzbiIec",
     "instructions": {
@@ -48,7 +49,8 @@
     "imageLink": "../images/thumbnails/memoryGame.png",
      "imageLogo": {
         "1":"../images/tech/react.png",
-        "2":"../images/tech/redux.png"
+        "2":"../images/tech/redux.png",
+        "3":"../images/tech/jest.png"
     },
     "videoLink": "https://youtu.be/26PfB0Joi1A", 
     "instructions": {
@@ -93,7 +95,8 @@
     "imageLogo": {
       "1":"../images/tech/javascript.png", 
       "2":"../images/tech/postgresql.png",
-      "3":"../images/tech/express.png"
+      "3":"../images/tech/express.png",
+      "4":"../images/tech/jasmine.png"
     },
     "videoLink": "https://youtube.com/live/7vvsel3TpEU",
     "instructions": {
@@ -111,7 +114,8 @@
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "imageLogo": {
       "1":"../images/tech/react.png",
-      "2":"../images/tech/redux.png"
+      "2":"../images/tech/redux.png",
+      "3":"../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
     "instructions": {
@@ -150,7 +154,8 @@
     "title": "Semitone Difference (GUI)",
     "imageLink": "../images/thumbnails/semitone.png",
     "imageLogo": {
-      "1":"../images/tech/javascript.png" 
+      "1":"../images/tech/javascript.png",
+      "2":"../images/tech/jasmine.png"
     },
     "videoLink": "https://youtube.com/live/RJqmKMyK-tc",
     "instructions": {
