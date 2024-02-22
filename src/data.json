@@ -1,17 +1,38 @@
 [
   {
     "id": 1,
+    "title": "SounDefy App",
+    "imageLink": "../images/thumbnails/sounDefy.png",
+    "imageLogo": {
+      "1": "../images/tech/reactNative.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/api.png",
+      "4": "../images/tech/firebase.png"
+    },
+    "videoLink": "https://youtube.com/live/8nHbTJLQeaQ",
+    "instructions": {
+      "0": "Create a mobile app using React Native.",
+      "1": "Authenticate users using Firebase Authentication (Email & Password).",
+      "2": "Grant a user permission to authorize Spotify.",
+      "3": "Once authorized on Spotify, retrieve the access token.",
+      "4": "Create a new user in Firebase using the retrieved Spotify user data.",
+      "5": "Use the Spotify access token to fetch user data including top tracks, artists, and recently played information using Spotify APIs.",
+      "6": "Display the user's top tracks, artists, genre and recently played information in the app interface."
+    }
+  },
+  {
+    "id": 2,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "imageLogo": {
-        "1":"../images/tech/reactNative.png",
-        "2":"../images/tech/redux.png",
-        "3":"../images/tech/sqllite.jpg",
-        "4":"../images/tech/jest.png"
+      "1": "../images/tech/reactNative.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/sqllite.jpg",
+      "4": "../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/2_QcyzbiIec",
     "instructions": {
-      "0": "Create a mobile app using React Native.", 
+      "0": "Create a mobile app using React Native.",
       "1": "Create attendee contact information in YAML format.",
       "2": "Generate unique QR codes for each attendee based on their contact information.",
       "3": "Print name badges with QR codes for all conference attendees.",
@@ -24,35 +45,35 @@
     }
   },
   {
-    "id": 2,
-    "title": "Consume Github APIs", 
+    "id": 3,
+    "title": "Consume Github APIs",
     "imageLink": "../images/thumbnails/github.png",
     "imageLogo": {
-        "1":"../images/tech/javascript.png",
-        "2":"../images/tech/api.png"
+      "1": "../images/tech/javascript.png",
+      "2": "../images/tech/api.png"
     },
-    "videoLink": "https://youtu.be/XPOayb1GVPA", 
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
     "instructions": {
-    "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
-    "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
-    "3": "Implement pagination to efficiently retrieve all matching pull requests, fetching the maximum number of PRs per page (100) to minimize API calls.",
-    "4": "Handle errors effectively, providing clear error messages in case of incorrect owner or repository names.",
-    "5": "Support public and private repositories, requiring authentication using an environmental variable called GITHUB_TOKEN, but allowing requests without the token when it is not provided.",
-    "6": "Ensure the function works with any GitHub user and repository name, making it generic and reusable for various repositories.",
-    "7": "Test the function thoroughly to verify its functionality under different scenarios, including cases with no matching pull requests between the specified dates.",
-    "8": "Display the output."
+      "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
+      "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
+      "3": "Implement pagination to efficiently retrieve all matching pull requests, fetching the maximum number of PRs per page (100) to minimize API calls.",
+      "4": "Handle errors effectively, providing clear error messages in case of incorrect owner or repository names.",
+      "5": "Support public and private repositories, requiring authentication using an environmental variable called GITHUB_TOKEN, but allowing requests without the token when it is not provided.",
+      "6": "Ensure the function works with any GitHub user and repository name, making it generic and reusable for various repositories.",
+      "7": "Test the function thoroughly to verify its functionality under different scenarios, including cases with no matching pull requests between the specified dates.",
+      "8": "Display the output."
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Memory Game",
     "imageLink": "../images/thumbnails/memoryGame.png",
-     "imageLogo": {
-        "1":"../images/tech/react.png",
-        "2":"../images/tech/redux.png",
-        "3":"../images/tech/jest.png"
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/jest.png"
     },
-    "videoLink": "https://youtu.be/26PfB0Joi1A", 
+    "videoLink": "https://youtu.be/26PfB0Joi1A",
     "instructions": {
       "1": "Develop a Memory game using React and Redux.",
       "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
@@ -68,15 +89,15 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
     "imageLogo": {
-      "1":"../images/tech/react.png",
-      "2":"../images/tech/redux.png",
-      "3":"../images/tech/api.png"
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/api.png"
     },
-    "videoLink": "https://youtube.com/live/dDSB0tMX3P8",    
+    "videoLink": "https://youtube.com/live/dDSB0tMX3P8",
     "instructions": {
       "1": "Develop a Recipe Search user interface using React and Redux Thunks.",
       "2": "Add a 'Search' button to the web application to enable users to initiate recipe searches.",
@@ -89,14 +110,15 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Add Little Ajax (form)",
     "imageLink": "../images/thumbnails/littleAjax.png",
     "imageLogo": {
-      "1":"../images/tech/javascript.png", 
-      "2":"../images/tech/postgresql.png",
-      "3":"../images/tech/express.png",
-      "4":"../images/tech/jasmine.png"
+      "1": "../images/tech/docker.png",
+      "2": "../images/tech/postgresql.png",
+      "3": "../images/tech/express.png",
+      "4": "../images/tech/jasmine.png"
+
     },
     "videoLink": "https://youtube.com/live/7vvsel3TpEU",
     "instructions": {
@@ -109,13 +131,13 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Redux Saga Game",
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "imageLogo": {
-      "1":"../images/tech/react.png",
-      "2":"../images/tech/redux.png",
-      "3":"../images/tech/jest.png"
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
     "instructions": {
@@ -130,10 +152,10 @@
     }
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Tilde Mockups",
     "imageLogo": {
-      "1":"../images/tech/react.png" 
+      "1": "../images/tech/react.png"
     },
     "imageLink": "../images/thumbnails/tildemockup.png",
     "videoLink": "https://youtu.be/mEuy6jpI7pA",
@@ -150,20 +172,20 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Semitone Difference (GUI)",
     "imageLink": "../images/thumbnails/semitone.png",
     "imageLogo": {
-      "1":"../images/tech/javascript.png",
-      "2":"../images/tech/jasmine.png"
+      "1": "../images/tech/javascript.png",
+      "2": "../images/tech/jasmine.png"
     },
     "videoLink": "https://youtube.com/live/RJqmKMyK-tc",
     "instructions": {
       "1": "Create a JamBuddy class with an attribute 'currentSelectedNotes' to track selected notes.",
-      "2": "Implement the JamBuddy class to allow selecting two notes and checking the difference in semitones between them.",  
+      "2": "Implement the JamBuddy class to allow selecting two notes and checking the difference in semitones between them.",
       "3": "Use JavaScript to build a simple user interface.",
-      "4": "Support the notes: A, A#, B, C, C#, D, D#, E, F, F#, G, G#.", 
-      "5": "Allow users to interact with the app to select notes and check answers.", 
+      "4": "Support the notes: A, A#, B, C, C#, D, D#, E, F, F#, G, G#.",
+      "5": "Allow users to interact with the app to select notes and check answers.",
       "6": "Ensure the GUI displays the selected notes, and users can input their answers easily.",
       "7": "Test the GUI functionality to validate its correctness using Jasmine."
     }
