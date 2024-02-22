@@ -46,22 +46,23 @@
   },
   {
     "id": 3,
-    "title": "Consume Github APIs",
-    "imageLink": "../images/thumbnails/github.png",
+    "title": "Redux Saga Game",
+    "imageLink": "../images/thumbnails/spaceInvader.png",
     "imageLogo": {
-      "1": "../images/tech/javascript.png",
-      "2": "../images/tech/api.png"
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/redux.png",
+      "3": "../images/tech/jest.png"
     },
-    "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
     "instructions": {
-      "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
-      "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
-      "3": "Implement pagination to efficiently retrieve all matching pull requests, fetching the maximum number of PRs per page (100) to minimize API calls.",
-      "4": "Handle errors effectively, providing clear error messages in case of incorrect owner or repository names.",
-      "5": "Support public and private repositories, requiring authentication using an environmental variable called GITHUB_TOKEN, but allowing requests without the token when it is not provided.",
-      "6": "Ensure the function works with any GitHub user and repository name, making it generic and reusable for various repositories.",
-      "7": "Test the function thoroughly to verify its functionality under different scenarios, including cases with no matching pull requests between the specified dates.",
-      "8": "Display the output."
+      "1": "Develop a simple game using React, Redux, and Redux Saga.",
+      "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
+      "3": "Include collectible items to gather points, displaying the points earned during gameplay.",
+      "4": "Implement a game-ending condition, such as encountering monsters, time limit, or colliding with obstacles.",
+      "5": "Use freely available game elements or create custom artwork for the game's aesthetics.",
+      "6": "Ensure clean, well-organized code, and rigorously test for functionality and bug fixing.",
+      "9": "Demonstrate proficiency in React, Redux, and Redux Saga through the project.",
+      "10": "Deliver a captivating game that showcases my skills in using these technologies."
     }
   },
   {
@@ -132,23 +133,22 @@
   },
   {
     "id": 7,
-    "title": "Redux Saga Game",
-    "imageLink": "../images/thumbnails/spaceInvader.png",
+    "title": "Consume Github APIs",
+    "imageLink": "../images/thumbnails/github.png",
     "imageLogo": {
-      "1": "../images/tech/react.png",
-      "2": "../images/tech/redux.png",
-      "3": "../images/tech/jest.png"
+      "1": "../images/tech/javascript.png",
+      "2": "../images/tech/api.png"
     },
-    "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
+    "videoLink": "https://youtu.be/XPOayb1GVPA",
     "instructions": {
-      "1": "Develop a simple game using React, Redux, and Redux Saga.",
-      "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
-      "3": "Include collectible items to gather points, displaying the points earned during gameplay.",
-      "4": "Implement a game-ending condition, such as encountering monsters, time limit, or colliding with obstacles.",
-      "5": "Use freely available game elements or create custom artwork for the game's aesthetics.",
-      "6": "Ensure clean, well-organized code, and rigorously test for functionality and bug fixing.",
-      "9": "Demonstrate proficiency in React, Redux, and Redux Saga through the project.",
-      "10": "Deliver a captivating game that showcases my skills in using these technologies."
+      "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
+      "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
+      "3": "Implement pagination to efficiently retrieve all matching pull requests, fetching the maximum number of PRs per page (100) to minimize API calls.",
+      "4": "Handle errors effectively, providing clear error messages in case of incorrect owner or repository names.",
+      "5": "Support public and private repositories, requiring authentication using an environmental variable called GITHUB_TOKEN, but allowing requests without the token when it is not provided.",
+      "6": "Ensure the function works with any GitHub user and repository name, making it generic and reusable for various repositories.",
+      "7": "Test the function thoroughly to verify its functionality under different scenarios, including cases with no matching pull requests between the specified dates.",
+      "8": "Display the output."
     }
   },
   {
