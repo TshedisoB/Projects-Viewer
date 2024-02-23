@@ -14,9 +14,9 @@
       "0": "Create a mobile app using React Native.",
       "1": "Authenticate users using Firebase Authentication (Email & Password).",
       "2": "Grant a user permission to authorize Spotify.",
-      "3": "Once authorized on Spotify, retrieve the access token.",
+      "3": "Once authenticated on Spotify, retrieve the access token.",
       "4": "Create a new user in Firebase using the retrieved Spotify user data.",
-      "5": "Use the Spotify access token to fetch user data including top tracks, artists, and recently played information using Spotify APIs.",
+      "5": "Use the Spotify access token to fetch user data including top tracks, top artists, and recently played information using Spotify APIs.",
       "6": "Display the user's top tracks, artists, genre and recently played information in the app interface."
     }
   },
