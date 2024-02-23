@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
+
 import ProjectInfo from "./ProjectInfo";
-
-import Footer from "./Footer";
-
-import "../styles/App.css";
 import imagesData from "../data.json";
 import AboutMe from "./AboutMe";
+import Footer from "./Footer";
+import SignUp from "./SignUp";
+import "../styles/App.css";
 
 const App = () => {
   const [popupVideoContent, setPopupVideoContent] = useState(null);
@@ -44,6 +44,7 @@ const App = () => {
     <div className="container">
       <h1 className="header">Tshediso's Portfolio</h1>
       <AboutMe />
+      <SignUp />
 
       <h2 className="header-subtitle">These are some of my projects</h2>
 

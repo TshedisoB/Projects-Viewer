@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Divider from "@mui/material/Divider";
+
 import "../styles/aboutMe.css";
 
 function AboutMe() {
