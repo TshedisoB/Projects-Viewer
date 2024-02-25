@@ -5,6 +5,14 @@ import { auth, database } from "../firebase.js";
 function SignUp() {
   const [userId, setUserId] = useState(localStorage.getItem("userId"));
 
+  function trimDate() {
+    const date = new Date();
+    const dateStr = date.toDateString();
+    const time = date.toLocaleTimeString();
+
+    return dateStr + " - " + time;
+  }
+
   useEffect(() => {
     const signInAnonymously = async () => {
       if (userId) {
@@ -20,7 +28,7 @@ function SignUp() {
               localStorage.setItem("userId", firebaseUser.uid);
 
               database.ref("users/" + firebaseUser.uid).set({
-                timestamp: new Date().toISOString(),
+                timestamp: trimDate(),
               });
             }
             console.log("User: ", firebaseUser.uid);
