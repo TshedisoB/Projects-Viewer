@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { auth } from "../firebase.js";
+import { auth, database } from "../firebase.js";
 
 function SignUp() {
   const [userId, setUserId] = useState(localStorage.getItem("userId"));
@@ -18,6 +18,10 @@ function SignUp() {
             if (localStorage.getItem("userId") === null) {
               setUserId(firebaseUser.uid);
               localStorage.setItem("userId", firebaseUser.uid);
+
+              database.ref("users/" + firebaseUser.uid).set({
+                timestamp: new Date().toISOString(),
+              });
             }
             console.log("User: ", firebaseUser.uid);
           } else {
@@ -31,6 +35,8 @@ function SignUp() {
 
     signInAnonymously();
   }, [userId]);
+
+  return null;
 }
 
 export default SignUp;
