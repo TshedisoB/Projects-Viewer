@@ -1,17 +1,10 @@
 import { useState, useEffect } from "react";
 
 import { auth, database } from "../firebase.js";
+import { trimDate, getDeviceType } from "../helper.js";
 
 function SignUp() {
   const [userId, setUserId] = useState(localStorage.getItem("userId"));
-
-  function trimDate() {
-    const date = new Date();
-    const dateStr = date.toDateString();
-    const time = date.toLocaleTimeString();
-
-    return dateStr + " - " + time;
-  }
 
   useEffect(() => {
     const signInAnonymously = async () => {
@@ -29,6 +22,7 @@ function SignUp() {
 
               database.ref("users/" + firebaseUser.uid).set({
                 timestamp: trimDate(),
+                deviceType: getDeviceType(),
               });
             }
             console.log("User: ", firebaseUser.uid);

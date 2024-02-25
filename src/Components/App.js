@@ -46,7 +46,7 @@ const App = () => {
       <AboutMe />
       <SignUp />
 
-      <h2 className="header-subtitle">These are some of my projects</h2>
+      <h2 className="header-subtitle">Here are some of my projects</h2>
 
       <div className="image-container">
         {imagesData.map((item) => (
