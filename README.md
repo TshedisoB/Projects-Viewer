@@ -29,16 +29,8 @@ This project is a web application that showcases some of Tshediso's collection o
 - **FontAwesome:** For including icons in the project.
 - **ReactPlayer:** To embed and play project videos.
 - **CSS:** Custom styling for the overall appearance.
+- **Firebase:** For tracking visitors and hosting the project.
 
-
-## Project Structure
-
-The project consists of two main components:
-
-1. **App Component:** This component serves as the main entry point for the project. It handles the state for opening and closing pop-ups, and it maps through the project data to display project cards.
-
-2. **ProjectInfo Component:** This component is responsible for displaying detailed project information in a modal or pop-up. It receives the project title and objectives as props and provides a "Close" button to close the modal.
- 
 ## Contact
 
 For any inquiries or questions, feel free to reach out to Tshediso at [tshedisoboshiana@gmail.com](mailto:tshedisoboshiana@gmail.com).

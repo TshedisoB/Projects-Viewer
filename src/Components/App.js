@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 
+import VideoIndicator from "./VideoIndicator";
 import ProjectInfo from "./ProjectInfo";
 import imagesData from "../data.json";
 import AboutMe from "./AboutMe";
@@ -54,11 +55,7 @@ const App = () => {
             <div
               className="image-logo-container"
               onClick={() => openPopup(item)}>
-              <span className="image-logo">
-                {Object.keys(item.imageLogo).map((key) => (
-                  <img key={key} src={item.imageLogo[key]} alt="" />
-                ))}
-              </span>
+              {item.videoLink && <VideoIndicator />}
               <img src={item.imageLink} alt="" />
             </div>
 
