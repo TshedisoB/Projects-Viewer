@@ -85,6 +85,7 @@ function AboutMe() {
                     <li>Postgress</li>
                     <li>SQLite</li>
                     <li>MongoDB</li>
+                    <li>Firebase</li>
                   </ul>
                 </div>
 
