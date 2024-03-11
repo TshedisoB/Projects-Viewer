@@ -3,11 +3,11 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 
 import VideoIndicator from "./VideoIndicator";
-import ProjectInfo from "./ProjectInfo";
+import ProjectInfo from "./ProjectInfo.js";
 import imagesData from "../data.json";
-import AboutMe from "./AboutMe";
-import Footer from "./Footer";
-import SignUp from "./SignUp";
+import AboutMe from "./AboutMe.js";
+import Footer from "./Footer.js";
+import SignUp from "./SignUp.js";
 import "../styles/App.css";
 
 const App = () => {
@@ -55,7 +55,13 @@ const App = () => {
             <div
               className="image-logo-container"
               onClick={() => openPopup(item)}>
-              {item.videoLink && <VideoIndicator />}
+              <VideoIndicator />
+              <span className="image-logo">
+                {Object.keys(item.imageLogo).map((key) => (
+                  <img key={key} src={item.imageLogo[key]} alt="" />
+                ))}
+              </span>
+
               <img src={item.imageLink} alt="" />
             </div>
 
