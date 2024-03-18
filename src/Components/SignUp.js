@@ -9,7 +9,6 @@ function SignUp() {
   useEffect(() => {
     const signInAnonymously = async () => {
       if (userId) {
-        console.log("Id already exists");
         return;
       }
       try {
@@ -25,7 +24,7 @@ function SignUp() {
                 deviceType: getDeviceType(),
               });
             }
-            console.log("User: ", firebaseUser.uid);
+            console.log("User Created");
           } else {
             console.log("User is signed out");
           }

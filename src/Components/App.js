@@ -22,6 +22,13 @@ const App = () => {
     setPopupInfoContent(content);
   };
 
+  const redirectToRepo = (url) => {
+    if (url === "restricted") {
+      alert("Preview restricted. Please request access.");
+    }
+    window.open(url, "_blank");
+  };
+
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const closePopup = useCallback(() => {
     setPopupVideoContent(null);
@@ -68,6 +75,12 @@ const App = () => {
             <div className="description">
               <h4 className="description-title">{item.title}</h4>
               <div className="button-container">
+                <button
+                  id={`info-button-${item.id}`}
+                  onClick={() => redirectToRepo(item.repoLink)}
+                  dangerouslySetInnerHTML={{ __html: "&lt;code/&gt;" }}
+                />
+
                 <button
                   id={`info-button-${item.id}`}
                   onClick={() => openInfoPopup(item)}>

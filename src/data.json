@@ -3,6 +3,7 @@
     "id": 1,
     "title": "SounDefy App",
     "imageLink": "../images/thumbnails/sounDefy.png",
+    "repoLink": "restricted",
     "imageLogo": {
       "1": "../images/tech/reactNative.png",
       "2": "../images/tech/redux.png",
@@ -24,6 +25,7 @@
     "id": 2,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/reactNative.png",
       "2": "../images/tech/redux.png",
@@ -46,8 +48,9 @@
   },
   {
     "id": 3,
-    "title": "Redux Saga Game",
+    "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -69,6 +72,7 @@
     "id": 4,
     "title": "Memory Game",
     "imageLink": "../images/thumbnails/memoryGame.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -93,6 +97,7 @@
     "id": 5,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -112,8 +117,9 @@
   },
   {
     "id": 6,
-    "title": "Add Little Ajax (form)",
+    "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/docker.png",
       "2": "../images/tech/postgresql.png",
@@ -133,8 +139,9 @@
   },
   {
     "id": 7,
-    "title": "Consume Github APIs",
+    "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/javascript.png",
       "2": "../images/tech/api.png"
@@ -153,11 +160,12 @@
   },
   {
     "id": 8,
-    "title": "Tilde Mockups",
+    "title": "Mockups",
+    "imageLink": "../images/thumbnails/tildemockup.png",
+    "repoLink": "tshedisob.github.io",
     "imageLogo": {
       "1": "../images/tech/react.png"
     },
-    "imageLink": "../images/thumbnails/tildemockup.png",
     "videoLink": "https://youtu.be/mEuy6jpI7pA",
     "instructions": {
       "1": "Create an intuitive frontend with user empathy and clear design.",
@@ -173,7 +181,8 @@
   },
   {
     "id": 9,
-    "title": "Semitone Difference (GUI)",
+    "title": "Semitone",
+    "repoLink": "https://github.com/TshedisoB/semitone-difference",
     "imageLink": "../images/thumbnails/semitone.png",
     "imageLogo": {
       "1": "../images/tech/javascript.png",
