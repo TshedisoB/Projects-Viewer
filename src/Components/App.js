@@ -25,6 +25,7 @@ const App = () => {
   const redirectToRepo = (url) => {
     if (url === "restricted") {
       alert("Preview restricted. Please request access.");
+      return;
     }
     window.open(url, "_blank");
   };
