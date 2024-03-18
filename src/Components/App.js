@@ -1,8 +1,9 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ReactPlayer from "react-player";
 
-import VideoIndicator from "./VideoIndicator";
+import RestrictedModal from "./RestrictedModal.js";
+import VideoIndicator from "./VideoIndicator.js";
 import ProjectInfo from "./ProjectInfo.js";
 import imagesData from "../data.json";
 import AboutMe from "./AboutMe.js";
@@ -13,28 +14,25 @@ import "../styles/App.css";
 const App = () => {
   const [popupVideoContent, setPopupVideoContent] = useState(null);
   const [popupInfoContent, setPopupInfoContent] = useState(null);
+  const [restrictedModalOpen, setRestrictedModalOpen] = useState(false);
 
-  const openPopup = (content) => {
-    setPopupVideoContent(content);
-  };
-
-  const openInfoPopup = (content) => {
-    setPopupInfoContent(content);
+  const handleOpenRestrictedModal = (value) => {
+    setRestrictedModalOpen(value);
   };
 
   const redirectToRepo = (url) => {
     if (url === "restricted") {
-      alert("Preview restricted. Please request access.");
+      handleOpenRestrictedModal(true);
       return;
     }
     window.open(url, "_blank");
   };
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const closePopup = useCallback(() => {
+  const closePopup = () => {
     setPopupVideoContent(null);
-    openInfoPopup(null);
-  });
+    setPopupInfoContent(null);
+  };
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -54,15 +52,13 @@ const App = () => {
       <h1 className="header">Tshediso's Portfolio</h1>
       <AboutMe />
       <SignUp />
-
       <h2 className="header-subtitle">Here are some of my projects</h2>
-
       <div className="image-container">
         {imagesData.map((item) => (
           <div className="image-content" key={item.id}>
             <div
               className="image-logo-container"
-              onClick={() => openPopup(item)}>
+              onClick={() => setPopupVideoContent(item)}>
               <VideoIndicator />
               <span className="image-logo">
                 {Object.keys(item.imageLogo).map((key) => (
@@ -84,7 +80,7 @@ const App = () => {
 
                 <button
                   id={`info-button-${item.id}`}
-                  onClick={() => openInfoPopup(item)}>
+                  onClick={() => setPopupInfoContent(item)}>
                   Info
                 </button>
               </div>
@@ -135,6 +131,13 @@ const App = () => {
           )}
         </div>
       )}
+
+      <div className="restricted-container">
+        <RestrictedModal
+          open={restrictedModalOpen}
+          handleClose={() => handleOpenRestrictedModal(false)}
+        />
+      </div>
     </div>
   );
 };
