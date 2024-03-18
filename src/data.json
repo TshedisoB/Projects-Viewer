@@ -25,7 +25,7 @@
     "id": 2,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/qr-connector",
     "imageLogo": {
       "1": "../images/tech/reactNative.png",
       "2": "../images/tech/redux.png",
@@ -50,7 +50,7 @@
     "id": 3,
     "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/space-invaders-game",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -70,9 +70,9 @@
   },
   {
     "id": 4,
-    "title": "Memory Game",
+    "title": "Memory Game(React)",
     "imageLink": "../images/thumbnails/memoryGame.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/memory-game-react",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -97,7 +97,7 @@
     "id": 5,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/recipe-search",
     "imageLogo": {
       "1": "../images/tech/react.png",
       "2": "../images/tech/redux.png",
@@ -119,7 +119,7 @@
     "id": 6,
     "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/little-ajax",
     "imageLogo": {
       "1": "../images/tech/docker.png",
       "2": "../images/tech/postgresql.png",
@@ -141,7 +141,7 @@
     "id": 7,
     "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/consume-github-apis",
     "imageLogo": {
       "1": "../images/tech/javascript.png",
       "2": "../images/tech/api.png"
@@ -162,7 +162,7 @@
     "id": 8,
     "title": "Mockups",
     "imageLink": "../images/thumbnails/tildemockup.png",
-    "repoLink": "tshedisob.github.io",
+    "repoLink": "https://github.com/TshedisoB/mockups",
     "imageLogo": {
       "1": "../images/tech/react.png"
     },
@@ -186,7 +186,8 @@
     "imageLink": "../images/thumbnails/semitone.png",
     "imageLogo": {
       "1": "../images/tech/javascript.png",
-      "2": "../images/tech/jasmine.png"
+      "2": "../images/tech/jasmine.png",
+      "3": "../images/tech/webpack.png"
     },
     "videoLink": "https://youtube.com/live/RJqmKMyK-tc",
     "instructions": {
@@ -198,5 +199,31 @@
       "6": "Ensure the GUI displays the selected notes, and users can input their answers easily.",
       "7": "Test the GUI functionality to validate its correctness using Jasmine."
     }
-  }
+  },
+  {
+   "id": 10,
+   "title": "Memory Game(JS)",
+   "imageLink": "../images/thumbnails/memoryGame.png",
+   "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
+   "imageLogo": {
+     "1": "../images/tech/javascript.png",
+     "2": "../images/tech/jasmine.png",
+     "3": "../images/tech/webpack.png",
+     "4": "../images/tech/tdd.png"
+   },
+   "videoLink": "https://youtu.be/26PfB0Joi1A",
+   "instructions": {
+     "1": "Develop a Memory game using React and Redux.",
+     "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
+     "3": "Implement the game using simple DOM elements; no fancy graphics or canvas elements are required.",
+     "4": "Allow only a single player to play the game.",
+     "5": "Create a pre-defined size board for the Memory game.",
+     "6": "Randomly hide one set of symbols or images on the board to be matched by the player.",
+     "7": "Build the Memory game in a Test-Driven Development (TDD) manner, ensuring the inclusion of tests throughout the development process.",
+     "8": "Write unit tests that employ mocks and spies to verify that the frontend updates appropriately based on game logic and player interactions.",
+     "9": "Ensure that once cards are matched, they cannot be flipped over again.",
+     "10": "Review the specifications provided in the tests to validate that they effectively test the functionality of the game code.",
+     "11": "Confirm that changes in the source files accurately affect the corresponding tests, demonstrating proper test coverage."
+   }
+  } 
 ]
