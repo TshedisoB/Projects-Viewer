@@ -29,12 +29,11 @@ const ContactForm = ({ handleClose }) => {
   const classes = useStyles();
   const form = useRef();
   const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
   const [message, setMessage] = useState("");
   const [firstName, setFirstName] = useState("");
   const [githubProfile, setGithubProfile] = useState("");
   const [isValid, setValid] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
+  const [formResponse, setFormResponse] = useState(null);
 
   useEffect(() => {
     const validateForm = () => {
@@ -61,26 +60,32 @@ const ContactForm = ({ handleClose }) => {
       };
 
       await database.ref("formSubmissions").push(formData);
-      setShowSuccess(true);
+      setFormResponse(["success", "Form submitted successfully."]);
       handleClose();
     } catch (error) {
       console.error("Error storing form data in Firebase:", error);
-      setError("An error occurred while submitting. Please try again later.");
+      setFormResponse(["error", "An error occurred while submitting."]);
     }
+  };
+
+  const closeMessage = () => {
+    setTimeout(() => {
+      setFormResponse(null);
+    }, 9000);
   };
 
   return (
     <div className="form-container">
-      {error && (
-        <Alert variant="filled" severity="error">
-          {error}
-        </Alert>
-      )}
-      {showSuccess && (
-        <Alert variant="filled" severity="success">
-          Form submitted successfully!
-        </Alert>
-      )}
+      <div>
+        {formResponse && (
+          <Alert
+            variant="filled"
+            severity={formResponse[0]}
+            onClose={closeMessage}>
+            {formResponse[1]}
+          </Alert>
+        )}
+      </div>
 
       <form ref={form} className={classes.root} onSubmit={handleSubmit}>
         <div>
