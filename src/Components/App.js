@@ -17,6 +17,12 @@ const App = () => {
   const [restrictedModalOpen, setRestrictedModalOpen] = useState(false);
 
   const handleOpenRestrictedModal = (value) => {
+    if (restrictedModalOpen && !value) {
+      setTimeout(() => {
+        setRestrictedModalOpen(value);
+      }, 2500);
+      return;
+    }
     setRestrictedModalOpen(value);
   };
 

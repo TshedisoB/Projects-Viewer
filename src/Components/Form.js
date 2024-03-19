@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
-      width: "300px",
+      width: "16.75rem",
     },
     "& .MuiButtonBase-root": {
       margin: theme.spacing(2),
@@ -68,25 +68,8 @@ const ContactForm = ({ handleClose }) => {
     }
   };
 
-  const closeMessage = () => {
-    setTimeout(() => {
-      setFormResponse(null);
-    }, 9000);
-  };
-
   return (
     <div className="form-container">
-      <div>
-        {formResponse && (
-          <Alert
-            variant="filled"
-            severity={formResponse[0]}
-            onClose={closeMessage}>
-            {formResponse[1]}
-          </Alert>
-        )}
-      </div>
-
       <form ref={form} className={classes.root} onSubmit={handleSubmit}>
         <div>
           <h3 id="request-access">Request access</h3>
@@ -120,24 +103,35 @@ const ContactForm = ({ handleClose }) => {
           label="Reason for access"
           variant="filled"
           multiline
-          rows={3}
+          minRows={3}
           required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
 
         <div className="form-buttons">
-          <Button variant="contained" color="secondary" onClick={handleClose}>
-            Cancel
-          </Button>
+          {formResponse ? (
+            <Alert variant="filled" severity={formResponse[0]}>
+              {formResponse[1]}
+            </Alert>
+          ) : (
+            <>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={handleClose}>
+                Cancel
+              </Button>
 
-          <Button
-            type="submit"
-            variant="contained"
-            color="primary"
-            disabled={!isValid}>
-            Send
-          </Button>
+              <Button
+                type="submit"
+                variant="contained"
+                color="primary"
+                disabled={!isValid}>
+                Send
+              </Button>
+            </>
+          )}
         </div>
       </form>
     </div>
