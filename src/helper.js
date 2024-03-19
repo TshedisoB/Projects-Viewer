@@ -3,7 +3,7 @@ export function trimDate() {
   const dateStr = date.toDateString();
   const time = date.toLocaleTimeString();
 
-  return dateStr + " - " + time;
+  return dateStr + " - " + time.slice(0, 5);
 }
 
 export function getDeviceType() {
