@@ -61,11 +61,19 @@ const ContactForm = ({ handleClose }) => {
 
       await database.ref("formSubmissions").push(formData);
       setFormResponse(["success", "Form submitted successfully."]);
-      handleClose();
+      setTimeout(() => {
+        handleClose();
+        setFormResponse(null);
+      }, 2500);
     } catch (error) {
       console.error("Error storing form data in Firebase:", error);
       setFormResponse(["error", "An error occurred while submitting."]);
     }
+  };
+
+  const handleCloseModal = () => {
+    setFormResponse(null);
+    handleClose();
   };
 
   return (
@@ -119,7 +127,7 @@ const ContactForm = ({ handleClose }) => {
               <Button
                 variant="contained"
                 color="secondary"
-                onClick={handleClose}>
+                onClick={handleCloseModal}>
                 Cancel
               </Button>
 
