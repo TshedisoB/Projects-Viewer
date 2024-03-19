@@ -319,6 +319,15 @@ close-button:hover {
   color: black;
 }
 
+#request-access{
+  color: #023378;
+  padding: 6px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
 .project-status{
   display: none;
 }
@@ -332,6 +341,7 @@ close-button:hover {
 }
 
 .footer-message {
+  margin-bottom: 1rem;
   font-size: 18px;
 }
 

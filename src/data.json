@@ -203,7 +203,7 @@
   {
    "id": 10,
    "title": "Memory Game(JS)",
-   "imageLink": "../images/thumbnails/memoryGame.png",
+   "imageLink": "../images/thumbnails/memoryVanilla.png",
    "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
    "imageLogo": {
      "1": "../images/tech/javascript.png",
@@ -213,7 +213,7 @@
    },
    "videoLink": "https://youtu.be/26PfB0Joi1A",
    "instructions": {
-     "1": "Develop a Memory game using React and Redux.",
+     "1": "Develop a Memory game using javascript.",
      "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
      "3": "Implement the game using simple DOM elements; no fancy graphics or canvas elements are required.",
      "4": "Allow only a single player to play the game.",
