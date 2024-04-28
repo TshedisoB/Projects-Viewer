@@ -1,4 +1,4 @@
-.about-container{
+.about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,18 +28,22 @@
 }
 
 .about-me-skills,
-.about-me-summary{
+.about-me-summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%; 
+  width: 80%;
 }
 
 .about-me-skills ul {
   list-style-type: none;
 }
 
-.about-me-sub-header{
+.about-me-paragraph {
+  padding: 0 1.2rem 1.2rem;
+}
+
+.about-me-sub-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +53,7 @@
   margin-bottom: 1rem;
 }
 
-.about-me-header{
+.about-me-header {
   color: #043e94;
   font-size: 1.4rem;
 }
@@ -57,19 +61,19 @@
 .skills-list-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 20px;
 }
 
-.skills-category{
+.skills-category {
   flex: 1;
-  min-width: 200px; 
+  min-width: 200px;
 }
 
-.skills-category  strong{
-  color: #043e94;  
+.skills-category strong {
+  color: #043e94;
 }
 
-#about-me-button{
+#about-me-button {
   background-color: #043e94;
   color: white;
   border: none;
@@ -94,9 +98,8 @@
     align-items: center;
   }
 
-  #about-me-button{
+  #about-me-button {
     margin: 0.5rem 0;
     font-size: 0.5rem;
   }
 }
-

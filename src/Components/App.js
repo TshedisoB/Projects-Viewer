@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import RestrictedModal from "./RestrictedModal.js";
 import VideoIndicator from "./VideoIndicator.js";
 import ProjectInfo from "./ProjectInfo.js";
-import imagesData from "../data.json";
+import imagesData from "../utils/data.json";
 import AboutMe from "./AboutMe.js";
 import Footer from "./Footer.js";
 import SignUp from "./SignUp.js";

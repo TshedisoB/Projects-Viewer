@@ -4,8 +4,8 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Alert from "@mui/material/Alert";
 
-import { database } from "../firebase.js";
-import { trimDate } from "../helper.js";
+import { database } from "../utils/firebase.js";
+import { trimDate } from "../utils/helper.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {

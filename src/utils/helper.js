@@ -15,6 +15,17 @@ export function getDeviceType() {
   } else {
     deviceType = "Desktop";
   }
-  console.log(deviceType);
   return deviceType;
+}
+
+export function splitString(str) {
+  const char = [];
+  const regex = /[\s\S]/gu;
+  let match;
+
+  while ((match = regex.exec(str))) {
+    char.push(match[0]);
+  }
+
+  return char;
 }

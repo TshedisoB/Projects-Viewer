@@ -1,14 +1,31 @@
 import React, { useState } from "react";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
+import { motion } from "framer-motion";
 
 import "../styles/aboutMe.css";
+import { splitString } from "../utils/helper.js";
+import { string1, string2, string3 } from "../utils/paddingStrings.js";
 
 function AboutMe() {
   const [isAboutVisible, setIsAboutVisible] = useState(false);
 
   const toggleAboutVisibility = () => {
     setIsAboutVisible(!isAboutVisible);
+  };
+
+  const p1 = splitString(string1);
+  const p2 = splitString(string2);
+  const p3 = splitString(string3);
+
+  const charVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+      },
+    },
   };
 
   return (
@@ -23,26 +40,45 @@ function AboutMe() {
         <div className="about-me-section">
           <div className="about-me-summary">
             <h3 className="about-me-sub-header">Summary</h3>
-            <p>
-              Hey Hey! ✌😅 I'm Tshediso Boshiana, your go-to guy for
-              transforming web development dreams into reality. Hailing from
-              Pretoria, I specialize in creating unique and visually stunning
-              mobile/web applications.
-            </p>
+            <motion.p
+              className="about-me-paragraph"
+              initial="hidden"
+              animate={isAboutVisible ? "visible" : "hidden"}
+              whileInView="reveal"
+              transition={{ staggerChildren: 0.01 }}>
+              {p1.map((char, index) => (
+                <motion.span key={`${char}-${index}`} variants={charVariants}>
+                  {char}
+                </motion.span>
+              ))}
+            </motion.p>
+            <br />
+            <motion.p
+              className="about-me-paragraph"
+              initial="hidden"
+              animate={isAboutVisible ? "visible" : "hidden"}
+              whileInView="reveal"
+              transition={{ staggerChildren: 0.02 }}>
+              {p2.map((char, index) => (
+                <motion.span key={`${char}-${index}`} variants={charVariants}>
+                  {char}
+                </motion.span>
+              ))}
+            </motion.p>
             <br />
             <p>
-              While in varsity I started contributing with other developers to
-              create apps to help businesses like `Ladies In Hygiene` and
-              `Precious The Hair Stylist` establish their online presence. As a
-              passionate tech enthusiast, I enjoy learning technologies that
-              helps build better and scalable applications.
-            </p>
-            <br />
-            <p>
-              Since becoming a FullStack web developer at Umuzi.org, I've
-              expanded my skill-set to include frontend and backend frameworks.
-              In addition to keeping daily standups in check, I immerse myself
-              in building responsive web and mobile applications.
+              <motion.p
+                className="about-me-paragraph"
+                initial="hidden"
+                animate={isAboutVisible ? "visible" : "hidden"}
+                whileInView="reveal"
+                transition={{ staggerChildren: 0.03 }}>
+                {p3.map((char, index) => (
+                  <motion.span key={`${char}-${index}`} variants={charVariants}>
+                    {char}
+                  </motion.span>
+                ))}
+              </motion.p>
             </p>
           </div>
 

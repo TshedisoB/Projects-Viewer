@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-import { auth, database } from "../firebase.js";
-import { trimDate, getDeviceType } from "../helper.js";
+import { auth, database } from "../utils/firebase.js";
+import { trimDate, getDeviceType } from "../utils/helper.js";
 
 function SignUp() {
   const [userId, setUserId] = useState(localStorage.getItem("userId"));

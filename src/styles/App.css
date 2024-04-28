@@ -1,73 +1,75 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
-  overflow-x:hidden;
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
   text-decoration: underline;
   padding: 1rem;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.header-subtitle{
+.header-subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;     
-  font-family: cursive;
-  color:#043e94;
+  font-size: 29px;
+  color: #043e94;
   margin-top: 20px;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.container{
-  position:relative;
+.container {
+  position: relative;
   text-align: center;
   min-height: 100vh;
   background: pink;
 }
 
-.container h1{
+.container h1 {
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
   padding-top: 20px 0;
   color: #043e94;
-  font-family: cursive;
 }
 
-.container .image-container{
+.container .image-container {
   display: flex;
   flex-wrap: wrap;
-  gap:15px;
+  gap: 15px;
   justify-content: center;
-  padding:10px;
+  padding: 10px;
 }
 
-.container .image-container .image-logo-container{
-  height:250px;
-  width:350px;
-  overflow:hidden;
+.container .image-container .image-logo-container {
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
   cursor: pointer;
 }
 
-.container .image-container .image-logo-container img{
-  height:100%;
-  width:100%;
+.container .image-container .image-logo-container img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   transition: all 0.3s ease;
-  
 }
- 
-.container .image-container .image-logo-container:hover img{
+
+.container .image-container .image-logo-container:hover img {
   transform: scale(1.1);
 }
 
@@ -95,16 +97,16 @@ body{
   z-index: 100;
 }
 
-.esc-content{
-  display: grid; 
-  font-size: 20px; 
-  color: #fff; 
+.esc-content {
+  display: grid;
+  font-size: 20px;
+  color: #fff;
   z-index: 100;
 }
 
-#escape-button{ 
+#escape-button {
   margin-top: 3rem;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .container .popup-image img {
@@ -115,20 +117,19 @@ body{
   object-fit: contain;
 }
 
-@media(min-width: 768px){
-  .modal{
+@media (min-width: 768px) {
+  .modal {
     max-width: 80%;
   }
 }
 
-  
-@media(max-width: 768px){
-  .container .image-container .image-logo-container{
-    height:200px;
-    width:300px;
+@media (max-width: 768px) {
+  .container .image-container .image-logo-container {
+    height: 200px;
+    width: 300px;
   }
-  
-  .container .popup-image img{
+
+  .container .popup-image img {
     width: 500px;
   }
 }
@@ -158,16 +159,17 @@ body{
   padding: 8px;
   font-size: 14px;
   font-weight: bold;
-} 
- 
-.image-logo{
-  position: absolute;
-  top: 0;  right: 0;  
-  width: 13%;
-  height: 22%; 
 }
 
-.image-content{
+.image-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 13%;
+  height: 22%;
+}
+
+.image-content {
   background-color: white;
   color: black;
   font-size: 20px;
@@ -175,28 +177,27 @@ body{
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
-  
 }
 
 .description {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-.description-title{
+.description-title {
   margin-left: 0.7rem;
   font-size: 1.09rem;
 }
 
 .button-container {
-  margin-left: auto; 
+  margin-left: auto;
 }
 
 [id^="info-button-"] {
   font-size: 15px;
-  background-color: #1D53A0;
+  background-color: #1d53a0;
   color: white;
   padding: 6px;
   text-align: center;
@@ -234,10 +235,10 @@ body{
   border-radius: 10px;
   padding: 5px;
   max-width: 90%;
-  max-height:90%;
+  max-height: 90%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
-  overflow-y: auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
 }
 
 .modal-header {
@@ -252,8 +253,8 @@ body{
   align-items: center;
   justify-content: center;
   float: center;
-  font-size: 1.7rem;  
-  padding:0;
+  font-size: 1.7rem;
+  padding: 0;
   margin: 0;
   text-decoration: underline;
   text-decoration-color: #c523aa;
@@ -263,13 +264,12 @@ body{
   margin-bottom: 20px;
 }
 
-.modal-body h3{
+.modal-body h3 {
   color: #c523aa;
   font-size: 1.4rem;
-
 }
 
-.modal-body ul {    
+.modal-body ul {
   margin-top: 1.02rem;
   color: #053692;
   list-style-type: square;
@@ -278,18 +278,18 @@ body{
   font-size: 12px;
 }
 
-.restricted-container{
+.restricted-container {
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
 }
 
-li{
+li {
   font-size: 0.78rem;
   margin-bottom: 0.31rem;
 }
 
-li:hover{
+li:hover {
   color: white;
   background-color: #0f228b;
 }
@@ -301,7 +301,7 @@ li:hover{
 
 .close-button {
   padding: 8px 16px;
-  background-color: #1D53A0;
+  background-color: #1d53a0;
   color: white;
   border: none;
   border-radius: 4px;
@@ -319,7 +319,7 @@ close-button:hover {
   color: black;
 }
 
-#request-access{
+#request-access {
   color: #023378;
   padding: 6px;
   text-align: center;
@@ -328,7 +328,7 @@ close-button:hover {
   margin-left: 5px;
 }
 
-.project-status{
+.project-status {
   display: none;
 }
 
@@ -345,7 +345,6 @@ close-button:hover {
   font-size: 18px;
 }
 
-
 .footer-icons {
   font-size: 24px;
 }
@@ -357,41 +356,39 @@ close-button:hover {
 }
 
 .footer-icons a:hover {
-  color: #d578e7; 
+  color: #d578e7;
 }
 
 @media (min-width: 700px) {
-  li{
+  li {
     font-size: 1.12rem;
   }
-
 }
 
 @media (max-width: 768px) {
-  .container h1 {    
+  .container h1 {
     font-size: 1.98rem;
   }
 
-  .header-subtitle{
-    font-size: 1.5rem;    
+  .header-subtitle {
+    font-size: 1.5rem;
   }
 
-  .footer-message{
-    font-size: 1rem;    
+  .footer-message {
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .container h1 {    
+  .container h1 {
     font-size: 1.6rem;
   }
 
-  .header-subtitle{
-    font-size: 1rem;    
+  .header-subtitle {
+    font-size: 1rem;
   }
 
-  
-  .footer-message{
-    font-size: 0.8rem;    
+  .footer-message {
+    font-size: 0.8rem;
   }
 }
