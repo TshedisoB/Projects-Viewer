@@ -66,55 +66,57 @@ function AboutMe() {
               ))}
             </motion.p>
             <br />
-            <p>
-              <motion.p
-                className="about-me-paragraph"
-                initial="hidden"
-                animate={isAboutVisible ? "visible" : "hidden"}
-                whileInView="reveal"
-                transition={{ staggerChildren: 0.03 }}>
-                {p3.map((char, index) => (
-                  <motion.span key={`${char}-${index}`} variants={charVariants}>
-                    {char}
-                  </motion.span>
-                ))}
-              </motion.p>
-            </p>
+            <motion.p
+              className="about-me-paragraph"
+              initial="hidden"
+              animate={isAboutVisible ? "visible" : "hidden"}
+              whileInView="reveal"
+              transition={{ staggerChildren: 0.03 }}>
+              {p3.map((char, index) => (
+                <motion.span key={`${char}-${index}`} variants={charVariants}>
+                  {char}
+                </motion.span>
+              ))}
+            </motion.p>
           </div>
 
           <Divider orientation="vertical" variant="middle" flexItem />
           <div className="about-me-skills">
             <h3 className="about-me-sub-header">Skills</h3>
-
-            <div className="skills-list-container">
-              <div className="skills-category">
+            <motion.div
+              className="skills-list-container"
+              initial="hidden"
+              animate={isAboutVisible ? "visible" : "hidden"}
+              whileInView="reveal"
+              transition={{ staggerChildren: 0.23 }}>
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Web Development:</strong>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
                 </ul>
-              </div>
+              </motion.div>
 
-              <div className="skills-category">
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Frameworks:</strong>
                 <ul>
                   <li>React.js</li>
                   <li>React Native</li>
                   <li>Redux</li>
                 </ul>
-              </div>
+              </motion.div>
 
-              <div className="skills-category">
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Backend Technologies:</strong>
                 <ul>
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>Docker</li>
                 </ul>
-              </div>
+              </motion.div>
 
-              <div className="skills-category">
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Databases:</strong>
                 <ul>
                   <li>Postgress</li>
@@ -122,22 +124,22 @@ function AboutMe() {
                   <li>MongoDB</li>
                   <li>Firebase</li>
                 </ul>
-              </div>
+              </motion.div>
 
-              <div className="skills-category">
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Version Control:</strong>
                 <ul>
                   <li>Git</li>
                 </ul>
-              </div>
+              </motion.div>
 
-              <div className="skills-category">
+              <motion.div className="skills-category" variants={charVariants}>
                 <strong>Testing:</strong>
                 <ul>
                   <li>Unit Testing (Jest/Jasmine)</li>
                 </ul>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </div>
