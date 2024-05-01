@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 
 import RestrictedModal from "./RestrictedModal.js";
@@ -53,9 +54,22 @@ const App = () => {
       <AboutMe />
       <SignUp />
       <h2 className="header-subtitle">Here are some of my projects</h2>
-      <div className="image-container">
+
+      <motion.div
+        className="image-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}>
         {imagesData.map((item) => (
-          <div className="image-content" key={item.id}>
+          <motion.div
+            className="image-content"
+            key={item.id}
+            initial={{ opacity: 0, y: 150 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1.5,
+              ease: [0, 0.71, 0.2, 1.01],
+              delay: item.id * 0.13,
+            }}>
             <div
               className="image-logo-container"
               onClick={() => setPopupVideoContent(item)}>
@@ -101,9 +115,9 @@ const App = () => {
                 onClose={closePopup}
               />
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
       <Footer />
 
       {popupVideoContent && (
