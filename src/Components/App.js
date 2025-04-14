@@ -26,7 +26,12 @@ const App = () => {
       handleOpenRestrictedModal(true);
       return;
     }
-    window.open(url, "_blank");
+    const item = imagesData.find(item => item.repoLink === url);
+    if (item?.appLink) {
+      window.open(`https://${item.appLink}`, "_blank");
+    } else {
+      window.open(url, "_blank");
+    }
   };
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -89,7 +94,9 @@ const App = () => {
                 <button
                   id={`info-button-${item.id}`}
                   onClick={() => redirectToRepo(item.repoLink)}
-                  dangerouslySetInnerHTML={{ __html: "&lt;code/&gt;" }}
+                  dangerouslySetInnerHTML={{ 
+                    __html: item.appLink ? "Link" : "&lt;code/&gt;" 
+                  }}
                 />
 
                 <button
@@ -127,10 +134,10 @@ const App = () => {
             <span id="escape-button">Close</span>
           </div>
 
-          {popupVideoContent.videoLink ? (
+          {popupVideoContent?.videoLink ? (
             <ReactPlayer
               className="popup-content"
-              url={popupVideoContent.videoLink}
+              url={popupVideoContent?.videoLink}
               controls
               playing
               width="80%"
@@ -139,7 +146,7 @@ const App = () => {
           ) : (
             <img
               className="popup-content"
-              src={popupVideoContent.imageLink}
+              src={popupVideoContent?.imageLink}
               alt=""
             />
           )}

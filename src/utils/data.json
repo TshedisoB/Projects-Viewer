@@ -1,6 +1,30 @@
 [
   {
     "id": 1,
+    "title": "ZA Tax Savvy Calculator",
+    "imageLink": "../images/thumbnails/taxCalculator.png",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "3": "../images/tech/radixui.png",
+      "4": "../images/tech/shadcn.png"
+    },
+    "videoLink": "https://tax-guider.netlify.app/",
+    "appLink": "tax-guider.netlify.app",
+    "instructions": {
+      "1": "Create a modern South African income tax calculator using React and advanced UI components.",
+      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design.",
+      "4": "Integrate Lucide icons for a consistent and professional icon system.",
+      "5": "Calculate income tax based on the latest SARS tax brackets and rates.",
+      "6": "Support both monthly and annual income calculations with automatic conversion.",
+      "7": "Display comprehensive tax breakdown including tax bracket rate, rebates, and take-home pay.",
+      "8": "Ensure mobile responsiveness and cross-browser compatibility."
+    }
+  },
+  {
+    "id": 2,
     "title": "SounDefy App",
     "imageLink": "../images/thumbnails/sounDefy.png",
     "repoLink": "restricted",
@@ -11,6 +35,7 @@
       "4": "../images/tech/firebase.png"
     },
     "videoLink": "https://youtube.com/live/8nHbTJLQeaQ",
+    "appLink": "",
     "instructions": {
       "0": "Create a mobile app using React Native.",
       "1": "Authenticate users using Firebase Authentication (Email & Password).",
@@ -22,7 +47,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "repoLink": "https://github.com/TshedisoB/qr-connector",
@@ -33,6 +58,7 @@
       "4": "../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/2_QcyzbiIec",
+    "appLink": "",
     "instructions": {
       "0": "Create a mobile app using React Native.",
       "1": "Create attendee contact information in YAML format.",
@@ -47,7 +73,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "repoLink": "https://github.com/TshedisoB/space-invaders-game",
@@ -57,6 +83,7 @@
       "3": "../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
+    "appLink": "",
     "instructions": {
       "1": "Develop a simple game using React, Redux, and Redux Saga.",
       "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
@@ -69,7 +96,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Memory Game(React)",
     "imageLink": "../images/thumbnails/memoryGame.png",
     "repoLink": "https://github.com/TshedisoB/memory-game-react",
@@ -79,6 +106,7 @@
       "3": "../images/tech/jest.png"
     },
     "videoLink": "https://youtu.be/26PfB0Joi1A",
+    "appLink": "",
     "instructions": {
       "1": "Develop a Memory game using React and Redux.",
       "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
@@ -94,7 +122,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
     "repoLink": "https://github.com/TshedisoB/recipe-search",
@@ -104,6 +132,7 @@
       "3": "../images/tech/api.png"
     },
     "videoLink": "https://youtube.com/live/dDSB0tMX3P8",
+    "appLink": "",
     "instructions": {
       "1": "Develop a Recipe Search user interface using React and Redux Thunks.",
       "2": "Add a 'Search' button to the web application to enable users to initiate recipe searches.",
@@ -116,7 +145,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
     "repoLink": "https://github.com/TshedisoB/little-ajax",
@@ -128,6 +157,7 @@
 
     },
     "videoLink": "https://youtube.com/live/7vvsel3TpEU",
+    "appLink": "",
     "instructions": {
       "1": "Create a static web page form.",
       "2": "Make use of express.js and postgresql to make AJAX requests to the database.",
@@ -138,7 +168,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
     "repoLink": "https://github.com/TshedisoB/consume-github-apis",
@@ -147,6 +177,7 @@
       "2": "../images/tech/api.png"
     },
     "videoLink": "https://youtu.be/XPOayb1GVPA",
+    "appLink": "",
     "instructions": {
       "1": "Explore and familiarize with consuming APIs from the command line using GitHub's API V3 and tools like curl.",
       "2": "Develop a function, 'get pull requests,' that takes owner, repository name, start date, and end date as arguments and returns a list/array of pull requests created, updated, merged, or closed between the given dates.",
@@ -159,7 +190,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Mockups",
     "imageLink": "../images/thumbnails/tildemockup.png",
     "repoLink": "https://github.com/TshedisoB/mockups",
@@ -167,6 +198,7 @@
       "1": "../images/tech/react.png"
     },
     "videoLink": "https://youtu.be/mEuy6jpI7pA",
+    "appLink": "",
     "instructions": {
       "1": "Create an intuitive frontend with user empathy and clear design.",
       "2": "Ensure website responsiveness using Material UI's layout components.",
@@ -180,7 +212,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Semitone",
     "repoLink": "https://github.com/TshedisoB/semitone-difference",
     "imageLink": "../images/thumbnails/semitone.png",
@@ -190,6 +222,7 @@
       "3": "../images/tech/webpack.png"
     },
     "videoLink": "https://youtube.com/live/RJqmKMyK-tc",
+    "appLink": "",
     "instructions": {
       "1": "Create a JamBuddy class with an attribute 'currentSelectedNotes' to track selected notes.",
       "2": "Implement the JamBuddy class to allow selecting two notes and checking the difference in semitones between them.",
@@ -201,7 +234,7 @@
     }
   },
   {
-   "id": 10,
+   "id": 11,
    "title": "Memory Game(JS)",
    "imageLink": "../images/thumbnails/memoryVanilla.png",
    "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
@@ -212,6 +245,7 @@
      "4": "../images/tech/tdd.png"
    },
    "videoLink": "https://youtu.be/26PfB0Joi1A",
+   "appLink": "",
    "instructions": {
      "1": "Develop a Memory game using javascript.",
      "2": "Create a Memory game MVP adhering to the principles of Minimum Viable Product (MVP), avoiding unnecessary features to focus on essential functionality.",
@@ -225,5 +259,5 @@
      "10": "Review the specifications provided in the tests to validate that they effectively test the functionality of the game code.",
      "11": "Confirm that changes in the source files accurately affect the corresponding tests, demonstrating proper test coverage."
    }
-  } 
+  }
 ]
