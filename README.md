@@ -31,6 +31,10 @@ This project is a web application that showcases some of Tshediso's collection o
 - **CSS:** Custom styling for the overall appearance.
 - **Firebase:** For tracking visitors and hosting the project.
 
+## Deploy
+- firebase login
+- firebase deploy --project [projects-id]
+
 ## Contact
 
 For any inquiries or questions, feel free to reach out to Tshediso at [tshedisoboshiana@gmail.com](mailto:tshedisoboshiana@gmail.com).
