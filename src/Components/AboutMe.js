@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 import { motion } from "framer-motion";
@@ -9,6 +9,27 @@ import { string1, string2, string3 } from "../utils/paddingStrings.js";
 
 function AboutMe() {
   const [isAboutVisible, setIsAboutVisible] = useState(false);
+
+  useEffect(() => {
+    if (isAboutVisible) {
+      const skillsLists = document.querySelectorAll('.skills-list');
+      skillsLists.forEach(list => {
+        const scrollHeight = list.scrollHeight;
+        let startTime;
+        
+        function animate(currentTime) {
+          if (!startTime) startTime = currentTime;
+          const progress = (currentTime - startTime) / 5000;
+
+          if (progress < 1) {
+            list.scrollTop = progress * (scrollHeight - list.clientHeight);
+            requestAnimationFrame(animate);
+          }
+        }
+        requestAnimationFrame(animate);
+      });
+    }
+  }, [isAboutVisible]);
 
   const toggleAboutVisibility = () => {
     setIsAboutVisible(!isAboutVisible);
@@ -89,55 +110,75 @@ function AboutMe() {
               animate={isAboutVisible ? "visible" : "hidden"}
               whileInView="reveal"
               transition={{ staggerChildren: 0.23 }}>
+              
               <motion.div className="skills-category" variants={charVariants}>
                 <strong>Web Development:</strong>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
+                <div className="skills-list">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                  </ul>
+                </div>
               </motion.div>
-
+                  
               <motion.div className="skills-category" variants={charVariants}>
-                <strong>Frameworks:</strong>
-                <ul>
-                  <li>React.js</li>
-                  <li>React Native</li>
-                  <li>Redux</li>
-                </ul>
+                <strong>Frameworks & Libraries:</strong>
+                <div className="skills-list">
+                  <ul>
+                    <li>React</li>
+                    <li>React Native</li>
+                    <li>Next.js</li>
+                    <li>Redux</li>
+                    <li>React Query</li>
+                    <li>Zustand</li>
+                    <li>ASP.NET</li>
+                    <li>Tailwind CSS</li>
+                    <li>Material UI</li>
+                    <li>shadcn/ui</li>
+                  </ul>
+                </div>
               </motion.div>
-
+                  
               <motion.div className="skills-category" variants={charVariants}>
-                <strong>Backend Technologies:</strong>
-                <ul>
-                  <li>Node.js</li>
-                  <li>Express.js</li>
-                  <li>Docker</li>
-                </ul>
+                <strong>Backend & Databases:</strong>
+                <div className="skills-list">
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>PostgreSQL</li>
+                    <li>SQLite</li>
+                    <li>Firebase</li>
+                  </ul>
+                </div>
               </motion.div>
-
+                  
               <motion.div className="skills-category" variants={charVariants}>
-                <strong>Databases:</strong>
-                <ul>
-                  <li>Postgress</li>
-                  <li>SQLite</li>
-                  <li>MongoDB</li>
-                  <li>Firebase</li>
-                </ul>
+                <strong>Testing & Tools:</strong>
+                <div className="skills-list">
+                  <ul>
+                    <li>Jest</li>
+                    <li>Jasmine</li>
+                    <li>React Testing Library</li>
+                    <li>Postman</li>
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Expo</li>
+                  </ul>
+                </div>
               </motion.div>
-
+                  
               <motion.div className="skills-category" variants={charVariants}>
-                <strong>Version Control:</strong>
-                <ul>
-                  <li>Git</li>
-                </ul>
-              </motion.div>
-
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Testing:</strong>
-                <ul>
-                  <li>Unit Testing (Jest/Jasmine)</li>
-                </ul>
+                <strong>Other Technologies:</strong>
+                <div className="skills-list">
+                  <ul>
+                    <li>DevExtreme</li>
+                    <li>TipTap (Collaborative Editor)</li>
+                    <li>zDarcy (Image/Video Editor)</li>
+                    <li>Figma (UI/UX Design)</li>
+                  </ul>
+                </div>
               </motion.div>
             </motion.div>
           </div>

@@ -77,8 +77,8 @@ const App = () => {
             }}>
             <div
               className="image-logo-container"
-              onClick={() => setPopupVideoContent(item)}>
-              <VideoIndicator />
+              onClick={() => !item.appLink && setPopupVideoContent(item)}>
+              {!item.appLink && <VideoIndicator />}
               <span className="image-logo">
                 {Object.keys(item.imageLogo).map((key) => (
                   <img key={key} src={item.imageLogo[key]} alt="" />

@@ -1,8 +1,8 @@
 export const string1 =
-  "Hey Hey! ✌😅 I'm Tshediso Boshiana, your go-to guy for transforming web development dreams into reality. Hailing from Pretoria, I specialize in creating unique and visually stunning mobile/web applications.";
+  "Hey Hey! ✌😅 I'm Tshediso Boshiana, a passionate Software Engineer with expertise in full-stack development. While at Bridge Labs, I've gained valuable experience building production-grade applications, leading feature development, and deploying to app stores. I specialize in React, Next.js, React Native, and ASP.NET, with a focus on creating scalable solutions with clean architecture.";
 
 export const string2 =
-  "While in varsity I started contributing with other developers to create apps to help small businesses establish their online presence. As a passionate tech enthusiast, I enjoy learning technologies that helps build better and scalable applications.";
+  "At Bridge Labs, I've contributed to multiple high-impact projects including a learning platform (React/Next.js), mobile app overhaul (React Native/C#), and a collaborative web application. My work includes implementing UI/UX transformations, building new API endpoints, developing complex features like real-time editors, and managing Play Store deployments. Combined with my BSc in Mathematical Sciences and NCIT in System Development, I bring both technical depth and practical experience.";
 
 export const string3 =
-  "I enjoy discovering new music, watching anime, movies, and series, reading manga, socializing, and I'm always up for a good laugh. If it's interesting, I'm in!";
+  "Beyond coding, I'm passionate about knowledge sharing - having served as a Junior Tech Lead at Umuzi mentoring developers and conducting code reviews. When not immersed in tech, I enjoy discovering new music, anime, and manga, while always staying curious about emerging industry trends and open-source contributions.";
