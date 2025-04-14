@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import "../styles/aboutMe.css";
 import { splitString } from "../utils/helper.js";
 import { string1, string2, string3 } from "../utils/paddingStrings.js";
+import { skillsData } from "../utils/skills.js";
 
 function AboutMe() {
   const [isAboutVisible, setIsAboutVisible] = useState(false);
@@ -111,75 +112,18 @@ function AboutMe() {
               whileInView="reveal"
               transition={{ staggerChildren: 0.23 }}>
               
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Web Development:</strong>
-                <div className="skills-list">
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>C#</li>
-                  </ul>
-                </div>
-              </motion.div>
-                  
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Frameworks & Libraries:</strong>
-                <div className="skills-list">
-                  <ul>
-                    <li>React</li>
-                    <li>React Native</li>
-                    <li>Next.js</li>
-                    <li>Redux</li>
-                    <li>React Query</li>
-                    <li>Zustand</li>
-                    <li>ASP.NET</li>
-                    <li>Tailwind CSS</li>
-                    <li>Material UI</li>
-                    <li>shadcn/ui</li>
-                  </ul>
-                </div>
-              </motion.div>
-                  
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Backend & Databases:</strong>
-                <div className="skills-list">
-                  <ul>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>PostgreSQL</li>
-                    <li>SQLite</li>
-                    <li>Firebase</li>
-                  </ul>
-                </div>
-              </motion.div>
-                  
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Testing & Tools:</strong>
-                <div className="skills-list">
-                  <ul>
-                    <li>Jest</li>
-                    <li>Jasmine</li>
-                    <li>React Testing Library</li>
-                    <li>Postman</li>
-                    <li>Docker</li>
-                    <li>Git</li>
-                    <li>Expo</li>
-                  </ul>
-                </div>
-              </motion.div>
-                  
-              <motion.div className="skills-category" variants={charVariants}>
-                <strong>Other Technologies:</strong>
-                <div className="skills-list">
-                  <ul>
-                    <li>DevExtreme</li>
-                    <li>TipTap (Collaborative Editor)</li>
-                    <li>zDarcy (Image/Video Editor)</li>
-                    <li>Figma (UI/UX Design)</li>
-                  </ul>
-                </div>
-              </motion.div>
+              {Object.entries(skillsData).map(([category, skills]) => (
+                <motion.div className="skills-category" variants={charVariants} key={category}>
+                  <strong>{category}:</strong>
+                  <div className="skills-list">
+                    <ul>
+                      {skills.map((skill) => (
+                        <li key={skill}>{skill}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </motion.div>
+              ))}
             </motion.div>
           </div>
         </div>

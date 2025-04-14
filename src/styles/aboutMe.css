@@ -23,7 +23,7 @@
 .about-me-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 0.51rem;
 }
 
