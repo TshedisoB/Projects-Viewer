@@ -33,6 +33,7 @@ This project is a web application that showcases some of Tshediso's collection o
 
 ## Deploy
 - firebase login
+- yarn build
 - firebase deploy --project [projects-id]
 
 ## Contact
