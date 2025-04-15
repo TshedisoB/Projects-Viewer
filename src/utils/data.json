@@ -83,7 +83,7 @@
       "3": "../images/tech/jest.png"
     },
     "videoLink": "https://youtube.com/live/8_rZHdzDOGI",
-    "appLink": "",
+    "appLink": "space-vader.netlify.app/",
     "instructions": {
       "1": "Develop a simple game using React, Redux, and Redux Saga.",
       "2": "Create an avatar/main character/hero that can be moved using arrow keys or 'wasd' keys.",
