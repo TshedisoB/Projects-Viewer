@@ -35,7 +35,7 @@ This project is a web application that showcases some of Tshediso's collection o
 - npm install -g firebase-tools
 - firebase login
 - yarn build
-- firebase deploy --project [projects-id]
+- firebase deploy --project projects-5584f
 
 ## Contact
 
