@@ -32,6 +32,7 @@ This project is a web application that showcases some of Tshediso's collection o
 - **Firebase:** For tracking visitors and hosting the project.
 
 ## Deploy
+- npm install -g firebase-tools
 - firebase login
 - yarn build
 - firebase deploy --project [projects-id]
