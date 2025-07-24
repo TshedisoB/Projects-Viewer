@@ -1,6 +1,56 @@
 [
   {
     "id": 1,
+    "title": "Mzansi Interior",
+    "imageLink": "../images/thumbnails/interior.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "3": "../images/tech/radixui.png",
+      "4": "../images/tech/shadcn.png"
+    },
+    "videoLink": "https://tax-guider.netlify.app/",
+    "appLink": "mzansi-interior.netlify.app",
+    "instructions": {
+      "1": "Create a sample website for interior web design using React and advanced UI components.",
+      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for interior design.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for showcasing interiors.",
+      "4": "Integrate Lucide icons for a consistent and professional icon system throughout the site.",
+      "5": "Showcase various interior design projects, including images, descriptions, and design features.",
+      "6": "Support both desktop and mobile views with a fully responsive layout.",
+      "7": "Display a gallery of completed works, client testimonials, and contact information.",
+      "8": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
+      "9": "i.e The site doesn't have full functionality, it's just a sample website."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Weiss Construction",
+    "imageLink": "../images/thumbnails/weiss.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "3": "../images/tech/radixui.png",
+      "4": "../images/tech/shadcn.png"
+    },
+    "videoLink": "https://tax-guider.netlify.app/",
+    "appLink": "weiss-construction.netlify.app",
+    "instructions": {
+      "1": "Create a sample website for construction company using React and advanced UI components.",
+      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for construction.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for showcasing construction projects.",
+      "4": "Integrate Lucide icons for a consistent and professional icon system throughout the site.",
+      "5": "Showcase various construction projects, including images, descriptions, and construction features.",
+      "6": "Support both desktop and mobile views with a fully responsive layout.",
+      "7": "Display a gallery of completed works, client testimonials, and contact information.",
+      "8": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
+      "9": "i.e The site doesn't have full functionality, it's just a sample website."
+    }
+  },
+  {
+    "id": 3,
     "title": "ZA Tax Savvy Calculator",
     "imageLink": "../images/thumbnails/taxCalculator.png",
     "repoLink": "",
@@ -24,7 +74,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "SounDefy App",
     "imageLink": "../images/thumbnails/sounDefy.png",
     "repoLink": "restricted",
@@ -47,7 +97,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "repoLink": "https://github.com/TshedisoB/qr-connector",
@@ -73,7 +123,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "repoLink": "https://github.com/TshedisoB/space-invaders-game",
@@ -96,7 +146,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Memory Game(React)",
     "imageLink": "../images/thumbnails/memoryGame.png",
     "repoLink": "https://github.com/TshedisoB/memory-game-react",
@@ -122,7 +172,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
     "repoLink": "https://github.com/TshedisoB/recipe-search",
@@ -145,7 +195,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
     "repoLink": "https://github.com/TshedisoB/little-ajax",
@@ -168,7 +218,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
     "repoLink": "https://github.com/TshedisoB/consume-github-apis",
@@ -190,7 +240,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Mockups",
     "imageLink": "../images/thumbnails/tildemockup.png",
     "repoLink": "https://github.com/TshedisoB/mockups",
@@ -212,7 +262,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Semitone",
     "repoLink": "https://github.com/TshedisoB/semitone-difference",
     "imageLink": "../images/thumbnails/semitone.png",
@@ -234,7 +284,7 @@
     }
   },
   {
-   "id": 11,
+   "id": 13,
    "title": "Memory Game(JS)",
    "imageLink": "../images/thumbnails/memoryVanilla.png",
    "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
