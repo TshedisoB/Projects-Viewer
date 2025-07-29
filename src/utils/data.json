@@ -1,5 +1,29 @@
 [
   {
+    "id": 0,
+    "title": "Jozi Webs",
+    "imageLink": "../images/thumbnails/joziwebs.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "4": "../images/tech/shadcn.png",
+      "5": "../images/tech/framermotion.png"
+    },
+    "videoLink": "joziwebs.co.za",
+    "appLink": "joziwebs.co.za",
+    "instructions": {
+      "1": "Create a website for a web design company using React and advanced UI components.",
+      "2": "Utilize Radix UI and shadcn/ui and other Animation libraries for building accessible and beautiful UI components tailored for web design.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for showcasing web design.",
+      "4": "Integrate Lucide icons for a consistent and professional icon system throughout the site.",
+      "5": "Showcase various web design projects, including images, descriptions, and design features.",
+      "6": "Support both desktop and mobile views with a fully responsive layout.",
+      "7": "Display a gallery of completed works, client testimonials, and contact information.",
+      "8": "Ensure mobile responsiveness and cross-browser compatibility for all users."
+    }
+  },
+  {
     "id": 1,
     "title": "Mzansi Interior",
     "imageLink": "../images/thumbnails/interior.PNG",
