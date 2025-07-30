@@ -1,6 +1,25 @@
 [
   {
     "id": 0,
+    "title": "Novi Analytics",
+    "imageLink": "../images/thumbnails/noviAnalytics.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "4": "../images/tech/shadcn.png",
+      "5": "../images/tech/framermotion.PNG"
+    },
+    "videoLink": "novi-analytics.netlify.app",
+    "appLink": "https://nivo-analytics.netlify.app",
+    "instructions": {
+      "1": "Create a website for a crypto analytics site using React and advanced UI components.",
+      "2": "Utilize Novi.Rocks to create a dashboard for a crypto analytics site.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for showcasing crypto analytics."
+    }
+  },
+  {
+    "id": 0.5,
     "title": "Jozi Webs",
     "imageLink": "../images/thumbnails/joziwebs.PNG",
     "repoLink": "",
