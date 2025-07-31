@@ -10,7 +10,7 @@
       "4": "../images/tech/shadcn.png",
       "5": "../images/tech/framermotion.PNG"
     },
-    "videoLink": "novi-analytics.netlify.app",
+    "videoLink": "",
     "appLink": "https://nivo-analytics.netlify.app",
     "instructions": {
       "1": "Create a website for a crypto analytics site using React and advanced UI components.",
@@ -79,7 +79,7 @@
       "4": "../images/tech/shadcn.png"
     },
     "videoLink": "https://tax-guider.netlify.app/",
-    "appLink": "weiss-construction.netlify.app",
+    "appLink": "https://weiss-construction.netlify.app",
     "instructions": {
       "1": "Create a sample website for construction company using React and advanced UI components.",
       "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for construction.",
@@ -104,7 +104,7 @@
       "4": "../images/tech/shadcn.png"
     },
     "videoLink": "https://tax-guider.netlify.app/",
-    "appLink": "tax-guider.netlify.app",
+    "appLink": "https://tax-guider.netlify.app/",
     "instructions": {
       "1": "Create a modern South African income tax calculator using React and advanced UI components.",
       "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components.",
