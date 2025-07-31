@@ -1,24 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Novi Analytics",
-    "imageLink": "../images/thumbnails/noviAnalytics.PNG",
-    "repoLink": "",
-    "imageLogo": {
-      "1": "../images/tech/react.png",
-      "2": "../images/tech/tailwind.png",
-      "4": "../images/tech/shadcn.png",
-      "5": "../images/tech/framermotion.PNG"
-    },
-    "videoLink": "",
-    "appLink": "https://nivo-analytics.netlify.app",
-    "instructions": {
-      "1": "Create a website for a crypto analytics site using React and advanced UI components.",
-      "2": "Utilize Novi.Rocks to create a dashboard for a crypto analytics site.",
-      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for showcasing crypto analytics."
-    }
-  },
-  {
     "id": 2,
     "title": "Jozi Webs",
     "imageLink": "../images/thumbnails/joziwebs.PNG",
@@ -29,8 +10,8 @@
       "4": "../images/tech/shadcn.png",
       "5": "../images/tech/framermotion.PNG"
     },
-    "videoLink": "joziwebs.co.za",
-    "appLink": "joziwebs.co.za",
+    "videoLink": "",
+    "appLink": "https://joziwebs.co.za",
     "instructions": {
       "1": "Create a website for a web design company using React and advanced UI components.",
       "2": "Utilize Radix UI and shadcn/ui and other Animation libraries for building accessible and beautiful UI components tailored for web design.",
@@ -53,7 +34,7 @@
       "3": "../images/tech/radixui.png",
       "4": "../images/tech/shadcn.png"
     },
-    "videoLink": "https://tax-guider.netlify.app/",
+    "videoLink": "",
     "appLink": "mzansi-interior.netlify.app",
     "instructions": {
       "1": "Create a sample website for interior web design using React and advanced UI components.",
@@ -78,7 +59,7 @@
       "3": "../images/tech/radixui.png",
       "4": "../images/tech/shadcn.png"
     },
-    "videoLink": "https://tax-guider.netlify.app/",
+    "videoLink": "",
     "appLink": "https://weiss-construction.netlify.app",
     "instructions": {
       "1": "Create a sample website for construction company using React and advanced UI components.",
@@ -103,7 +84,7 @@
       "3": "../images/tech/radixui.png",
       "4": "../images/tech/shadcn.png"
     },
-    "videoLink": "https://tax-guider.netlify.app/",
+    "videoLink": "",
     "appLink": "https://tax-guider.netlify.app/",
     "instructions": {
       "1": "Create a modern South African income tax calculator using React and advanced UI components.",

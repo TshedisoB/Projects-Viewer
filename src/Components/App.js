@@ -21,16 +21,15 @@ const App = () => {
     setRestrictedModalOpen(value);
   };
 
-  const redirectToRepo = (url) => {
-    if (url === "restricted") {
+  const redirectToRepo = (item) => {
+    if (item.repoLink === "restricted") {
       handleOpenRestrictedModal(true);
       return;
     }
-    const item = imagesData.find(item => item.repoLink === url);
     if (item?.appLink) {
       window.open(`https://${item.appLink}`, "_blank");
-    } else {
-      window.open(url, "_blank");
+    } else if (item?.repoLink) {
+      window.open(item.repoLink, "_blank");
     }
   };
 
@@ -93,7 +92,7 @@ const App = () => {
               <div className="button-container">
                 <button
                   id={`info-button-${item.id}`}
-                  onClick={() => redirectToRepo(item.repoLink)}
+                  onClick={() => redirectToRepo(item)}
                   dangerouslySetInnerHTML={{ 
                     __html: item.appLink ? "Link" : "&lt;code/&gt;" 
                   }}
