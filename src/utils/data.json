@@ -19,7 +19,7 @@
     }
   },
   {
-    "id": 0.5,
+    "id": 1,
     "title": "Jozi Webs",
     "imageLink": "../images/thumbnails/joziwebs.PNG",
     "repoLink": "",
@@ -43,7 +43,7 @@
     }
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Mzansi Interior",
     "imageLink": "../images/thumbnails/interior.PNG",
     "repoLink": "",
@@ -68,7 +68,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Weiss Construction",
     "imageLink": "../images/thumbnails/Weiss.PNG",
     "repoLink": "",
@@ -93,7 +93,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "ZA Tax Savvy Calculator",
     "imageLink": "../images/thumbnails/taxCalculator.png",
     "repoLink": "",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "SounDefy App",
     "imageLink": "../images/thumbnails/sounDefy.png",
     "repoLink": "restricted",
@@ -140,7 +140,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "repoLink": "https://github.com/TshedisoB/qr-connector",
@@ -166,7 +166,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "repoLink": "https://github.com/TshedisoB/space-invaders-game",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Memory Game(React)",
     "imageLink": "../images/thumbnails/memoryGame.png",
     "repoLink": "https://github.com/TshedisoB/memory-game-react",
@@ -215,7 +215,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
     "repoLink": "https://github.com/TshedisoB/recipe-search",
@@ -238,7 +238,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
     "repoLink": "https://github.com/TshedisoB/little-ajax",
@@ -261,7 +261,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
     "repoLink": "https://github.com/TshedisoB/consume-github-apis",
@@ -283,7 +283,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Mockups",
     "imageLink": "../images/thumbnails/tildemockup.png",
     "repoLink": "https://github.com/TshedisoB/mockups",
@@ -305,7 +305,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Semitone",
     "repoLink": "https://github.com/TshedisoB/semitone-difference",
     "imageLink": "../images/thumbnails/semitone.png",
@@ -327,7 +327,7 @@
     }
   },
   {
-   "id": 13,
+  "id": 14,
    "title": "Memory Game(JS)",
    "imageLink": "../images/thumbnails/memoryVanilla.png",
    "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
