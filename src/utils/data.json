@@ -11,7 +11,7 @@
       "5": "../images/tech/framermotion.PNG"
     },
     "videoLink": "",
-    "appLink": "https://joziwebs.co.za",
+    "appLink": "joziwebs.co.za",
     "instructions": {
       "1": "Create a website for a web design company using React and advanced UI components.",
       "2": "Utilize Radix UI and shadcn/ui and other Animation libraries for building accessible and beautiful UI components tailored for web design.",
