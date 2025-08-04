@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "title": "Jozi Webs",
     "imageLink": "../images/thumbnails/joziwebs.PNG",
     "repoLink": "",
@@ -21,6 +21,32 @@
       "6": "Support both desktop and mobile views with a fully responsive layout.",
       "7": "Display a gallery of completed works, client testimonials, and contact information.",
       "8": "Ensure mobile responsiveness and cross-browser compatibility for all users."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Anime Discovery",
+    "imageLink": "../images/thumbnails/animeDiscovery.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "3": "../images/tech/redux.png",
+      "4": "../images/tech/api.png"
+    },
+    "videoLink": "",
+    "appLink": "anime-disc.netlify.app/",
+    "instructions": {
+      "1": "Create an anime discovery application using Vite as the build tool for fast development and optimized production builds.",
+      "2": "Utilize React with modern hooks and functional components for building a responsive and interactive user interface.",
+      "3": "Style the application using Tailwind CSS for a modern, responsive design with utility-first CSS framework.",
+      "4": "Implement Redux Toolkit for state management to handle application state efficiently and predictably.",
+      "5": "Integrate RTK Query for data fetching, caching, and synchronization with the anime API endpoints.",
+      "6": "Create a search functionality to discover anime by title, genre, or other criteria using the API.",
+      "7": "Display anime information including titles, descriptions, ratings, and images in an organized layout.",
+      "8": "Implement pagination or infinite scroll for browsing large collections of anime data.",
+      "9": "Add filtering and sorting options to enhance user experience when browsing anime content.",
+      "10": "Ensure mobile responsiveness and cross-browser compatibility for all users."
     }
   },
   {
