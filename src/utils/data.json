@@ -51,7 +51,7 @@
   },
   {
     "id": 3,
-    "title": "Mzansi Interior",
+    "title": "Mzansi Interior (PWA)",
     "imageLink": "../images/thumbnails/interior.PNG",
     "repoLink": "",
     "imageLogo": {
@@ -71,7 +71,10 @@
       "6": "Support both desktop and mobile views with a fully responsive layout.",
       "7": "Display a gallery of completed works, client testimonials, and contact information.",
       "8": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
-      "9": "i.e The site doesn't have full functionality, it's just a sample website."
+      "9": "Implement Progressive Web App (PWA) functionality with service worker for offline capabilities.",
+      "10": "Make the application downloadable and installable on mobile and desktop devices.",
+      "11": "Add push notification functionality to keep users informed about new projects and updates.",
+      "12": "i.e The site doesn't have full functionality, it's just a sample website."
     }
   },
   {
