@@ -1,6 +1,66 @@
 [
   {
-    "id": 1,
+    "id": 9,
+    "title": "Event Masters",
+    "imageLink": "../images/thumbnails/eventsMasters.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "3": "../images/tech/supabase.png",
+      "5": "../images/tech/framermotion.PNG"
+    },
+    "videoLink": "",
+    "appLink": "event-masters.netlify.app/",
+    "instructions": {
+      "1": "Create an Event Masters platform using React, Next.js, Tailwind CSS, and Supabase as the database.",
+      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for event service marketplace.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for event planning services.",
+      "4": "Implement a comprehensive navigation system with: Services, How It Works, About, Contact, Login, and Sign Up sections.",
+      "5": "Create a hero section showcasing 'Your Ultimate Resource for Event Service Providers' with compelling tagline and call-to-action buttons.",
+      "6": "Design three main user category sections: For Event Planners, For Businesses, and For Individuals with specific value propositions.",
+      "7": "Make use of google apis to retrieve specific categorties and users should be able to register their businesses.",
+      "9": "Integrate Supabase for user authentication, service provider profiles, event bookings, and real-time data management.",
+      "10": "Create a service provider dashboard for businesses to manage their profiles, services, and bookings.",
+      "11": "Implement a search and filtering system for users to find service providers by category, location, and rating.",
+      "12": "Add a booking system that allows users to schedule services and manage their events.",
+      "13": "Include a review and rating system for service providers to build trust and credibility.",
+      "14": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
+      "15": "Implement proper error handling and user feedback for all database operations and user interactions."
+    }
+  },
+  {
+    "id": 10,
+    "title": "Cover Letter Generator",
+    "imageLink": "../images/thumbnails/coverLetterGenerator.PNG",
+    "repoLink": "",
+    "imageLogo": {
+      "1": "../images/tech/react.png",
+      "2": "../images/tech/tailwind.png",
+      "4": "../images/tech/shadcn.png",
+      "5": "../images/tech/radixui.PNG"
+    },
+    "videoLink": "",
+    "appLink": "cover-letter-generata.netlify.app",
+    "instructions": {
+      "1": "Create a cover letter generator using React, Next.js, Tailwind CSS, and other advanced UI components.",
+      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for cover letter generation.",
+      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for professional document creation.",
+      "4": "Implement a comprehensive form with the following sections: Personal Information, Company Information, Position Information, and Letter Content.",
+      "5": "Personal Information section should include: Full Name, Email, Phone, Street Address, City, State, and ZIP Code fields.",
+      "6": "Company Information section should include: Company Name, Contact Person, Business Address, City, State, and ZIP Code fields.",
+      "7": "Position Information section should include: Job Title and Source fields (LinkedIn, Indeed, Company Website, etc.).",
+      "8": "Letter Content section should include customizable template text with placeholders for dynamic content insertion.",
+      "9": "Implement a live preview feature that shows the formatted cover letter as users fill out the form.",
+      "10": "Integrate jsPDF library to generate and download the cover letter as a professional PDF document.",
+      "11": "Add form validation to ensure all required fields are completed before PDF generation.",
+      "12": "Include a reset/clear form functionality and the ability to save form data locally for future use.",
+      "13": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
+      "14": "Implement proper error handling and user feedback for PDF generation process."
+    }
+  },
+  {
+    "id": 11,
     "title": "Jozi Webs",
     "imageLink": "../images/thumbnails/joziwebs.PNG",
     "repoLink": "",
@@ -24,7 +84,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 12,
     "title": "Anime Discovery",
     "imageLink": "../images/thumbnails/animeDiscovery.PNG",
     "repoLink": "",
@@ -50,7 +110,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 13,
     "title": "Mzansi Interior (PWA)",
     "imageLink": "../images/thumbnails/interior.PNG",
     "repoLink": "",
@@ -78,7 +138,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 14,
     "title": "Weiss Construction",
     "imageLink": "../images/thumbnails/Weiss.PNG",
     "repoLink": "",
@@ -103,7 +163,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 15,
     "title": "ZA Tax Savvy Calculator",
     "imageLink": "../images/thumbnails/taxCalculator.png",
     "repoLink": "",
@@ -127,7 +187,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 16,
     "title": "SounDefy App",
     "imageLink": "../images/thumbnails/sounDefy.png",
     "repoLink": "restricted",
@@ -150,7 +210,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 17,
     "title": "QR Scanner",
     "imageLink": "../images/thumbnails/qrScanner.png",
     "repoLink": "https://github.com/TshedisoB/qr-connector",
@@ -176,7 +236,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 18,
     "title": "Space Invaders",
     "imageLink": "../images/thumbnails/spaceInvader.png",
     "repoLink": "https://github.com/TshedisoB/space-invaders-game",
@@ -199,7 +259,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 19,
     "title": "Memory Game(React)",
     "imageLink": "../images/thumbnails/memoryGame.png",
     "repoLink": "https://github.com/TshedisoB/memory-game-react",
@@ -225,7 +285,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 20,
     "title": "Recipe Search",
     "imageLink": "../images/thumbnails/recipe.png",
     "repoLink": "https://github.com/TshedisoB/recipe-search",
@@ -248,7 +308,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 21,
     "title": "Little Ajax",
     "imageLink": "../images/thumbnails/littleAjax.png",
     "repoLink": "https://github.com/TshedisoB/little-ajax",
@@ -271,7 +331,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 22,
     "title": "Github APIs",
     "imageLink": "../images/thumbnails/github.png",
     "repoLink": "https://github.com/TshedisoB/consume-github-apis",
@@ -293,7 +353,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 23,
     "title": "Mockups",
     "imageLink": "../images/thumbnails/tildemockup.png",
     "repoLink": "https://github.com/TshedisoB/mockups",
@@ -315,7 +375,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 24,
     "title": "Semitone",
     "repoLink": "https://github.com/TshedisoB/semitone-difference",
     "imageLink": "../images/thumbnails/semitone.png",
@@ -337,7 +397,7 @@
     }
   },
   {
-  "id": 15,
+  "id": 25,
    "title": "Memory Game(JS)",
    "imageLink": "../images/thumbnails/memoryVanilla.png",
    "repoLink": "https://github.com/TshedisoB/memory-game-vanilla",
