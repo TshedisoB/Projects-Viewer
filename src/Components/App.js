@@ -3,6 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 
+import SplashCursor from "../utils/splashCursor.js";
 import RestrictedModal from "./RestrictedModal.js";
 import VideoIndicator from "./VideoIndicator.js";
 import ProjectInfo from "./ProjectInfo.js";
@@ -54,6 +55,7 @@ const App = () => {
 
   return (
     <div className="container">
+      <SplashCursor />
       <h1 className="header">Tshediso's Portfolio</h1>
       <AboutMe />
       <SignUp />
