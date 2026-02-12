@@ -1,7 +1,7 @@
 [
   {
     "id": 9,
-    "title": "Event Masters",
+    "title": "Events Masters",
     "imageLink": "../images/thumbnails/eventsMasters.PNG",
     "repoLink": "",
     "imageLogo": {
@@ -11,24 +11,25 @@
       "5": "../images/tech/framermotion.PNG"
     },
     "videoLink": "",
-    "appLink": "event-masters.netlify.app/",
-    "instructions": {
-      "1": "Create an Event Masters platform using React, Next.js, Tailwind CSS, and Supabase as the database.",
-      "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for event service marketplace.",
-      "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for event planning services.",
-      "4": "Implement a comprehensive navigation system with: Services, How It Works, About, Contact, Login, and Sign Up sections.",
-      "5": "Create a hero section showcasing 'Your Ultimate Resource for Event Service Providers' with compelling tagline and call-to-action buttons.",
-      "6": "Design three main user category sections: For Event Planners, For Businesses, and For Individuals with specific value propositions.",
-      "7": "Make use of google apis to retrieve specific categorties and users should be able to register their businesses.",
-      "9": "Integrate Supabase for user authentication, service provider profiles, event bookings, and real-time data management.",
-      "10": "Create a service provider dashboard for businesses to manage their profiles, services, and bookings.",
-      "11": "Implement a search and filtering system for users to find service providers by category, location, and rating.",
-      "12": "Add a booking system that allows users to schedule services and manage their events.",
-      "13": "Include a review and rating system for service providers to build trust and credibility.",
-      "14": "Ensure mobile responsiveness and cross-browser compatibility for all users.",
-      "15": "Implement proper error handling and user feedback for all database operations and user interactions."
-    }
-  },
+    "appLink": "https://eventsmasters.co.za/",
+      "instructions": {
+        "1": "Create an Events Masters platform using React, Vite, TypeScript, Tailwind CSS, and Supabase as the database.",
+        "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for the event service marketplace.",
+        "3": "Style the application using Tailwind CSS for a responsive and modern design aesthetic suitable for event planning services.",
+        "4": "Implement a comprehensive navigation system with: Home, Services (by category), How It Works / Use Cases, About, Contact, Auth (Login / Sign Up), Events, Business Setup, My Account, Bookmarks, and Admin sections.",
+        "5": "Create a hero section showcasing 'Your Ultimate Resource for Event Service Providers' with compelling tagline, trust stats (e.g. verified providers, ratings, successful events), and call-to-action buttons.",
+        "6": "Design three main user category sections: For Event Planners (create events, post requirements, receive bids), For Businesses (register, manage profile, bid on requirements), and For Individuals (discover and book services) with specific value propositions.",
+        "7": "Make use of Google APIs (Maps, Places) to retrieve and display businesses by category; allow users to register their businesses in relevant service categories.",
+        "8": "Implement an event and requirement system: users create events with details (date, location, budget, guest count) and add per-category requirements that service providers can bid on.",
+        "9": "Integrate Supabase for user authentication, profiles, business profiles, events, event requirements, bids, bid messages, token wallet, and real-time data management.",
+        "10": "Create a service provider dashboard and Business Setup flow for businesses to manage their profiles, categories, services, and bids on event requirements.",
+        "11": "Implement a search and filtering system for users to find service providers by category, location, and rating (e.g. via category pages and Google Places integration).",
+        "12": "Add an event and bidding system: users create events and requirements; providers place bids (consuming tokens); support bid messaging and acceptance/management of bookings.",
+        "13": "Include trust and credibility features: ratings where available (e.g. from Google Places), bookmarks for saving providers, and clear display of provider and event information.",
+        "14": "Ensure mobile responsiveness and cross-browser compatibility for all pages and user interactions.",
+        "15": "Implement proper error handling and user feedback (e.g. toasts, form validation) for all database operations, authentication, payments (e.g. Paystack for tokens), and user interactions."
+      }
+    },
   {
     "id": 10,
     "title": "Cover Letter Generator",
