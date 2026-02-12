@@ -11,7 +11,7 @@
       "5": "../images/tech/framermotion.PNG"
     },
     "videoLink": "",
-    "appLink": "https://eventsmasters.co.za/",
+    "appLink": "eventsmasters.co.za/",
       "instructions": {
         "1": "Create an Events Masters platform using React, Vite, TypeScript, Tailwind CSS, and Supabase as the database.",
         "2": "Utilize Radix UI and shadcn/ui for building accessible and beautiful UI components tailored for the event service marketplace.",
