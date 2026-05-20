@@ -27,7 +27,7 @@
         "12": "Add an event and bidding system: users create events and requirements; providers place bids (consuming tokens); support bid messaging and acceptance/management of bookings.",
         "13": "Include trust and credibility features: ratings where available (e.g. from Google Places), bookmarks for saving providers, and clear display of provider and event information.",
         "14": "Ensure mobile responsiveness and cross-browser compatibility for all pages and user interactions.",
-        "15": "Implement proper error handling and user feedback (e.g. toasts, form validation) for all database operations, authentication, payments (e.g. Paystack for tokens), and user interactions."
+        "15": "Implement proper error handling and user feedback (e.g. toasts, form validation) for all database operations, authentication, payments (e.g. Yoco for tokens), and user interactions."
       }
     },
   {
