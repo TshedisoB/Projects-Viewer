@@ -61,7 +61,7 @@
 .skills-list-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 .skills-category {
@@ -105,9 +105,13 @@
 }
 
 .skills-list {
-  max-height: 120px;
+  max-height: 170px;
   overflow-y: auto;
   padding-right: 10px;
+}
+
+.skills-list li {
+  font-size: 0.9rem;
 }
 
 .skills-list::-webkit-scrollbar {

@@ -53,7 +53,7 @@ function AboutMe() {
   return (
     <div className="about-container">
       <Button id="about-me-button" onClick={toggleAboutVisibility}>
-        {isAboutVisible ? "Hide About Me" : "Show About Me"}
+        {isAboutVisible ? "Hide" : "Show About Me"}
       </Button>
 
       <div className={`about-me-content ${isAboutVisible ? "visible" : ""}`}>
